@@ -13,4 +13,4 @@ TODO :
 
 *make video signal CV input for mixing part
 
-*design sync/brush summing with regular AND gate
+*design sync/burst summing with regular AND gate
