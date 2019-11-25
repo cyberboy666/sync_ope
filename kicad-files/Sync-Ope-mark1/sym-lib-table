@@ -1,3 +1,0 @@
-(sym_lib_table
-  (lib (name Sync-Ope-proto)(type Legacy)(uri ${KIPRJMOD}/lib_sch/Sync-Ope-proto.lib)(options "")(descr ""))
-)
