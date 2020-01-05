@@ -1,4 +1,4 @@
-16365841211670125
+16367417312433573
 Battery
 BatteryHolder_Bulgin_BX0036_1xC
 Bulgin Battery Holder, BX0036, Battery Type C (https://www.bulgin.com/products/pub/media/bulgin/data/Battery_holders.pdf)
@@ -6397,6 +6397,13 @@ Molex MMCX Coaxial Connector 50 ohms Female Jack Vertical THT
 0
 5
 2
+Connector_Coaxial
+RCJ-024
+<b>DC POWER JACK</b><p>Source: DCJ0202.pdf
+
+0
+3
+3
 Connector_Coaxial
 SMA_Amphenol_901-144_Vertical
 https://www.amphenolrf.com/downloads/dl/file/id/7023/product/3103/901_144_customer_drawing.pdf

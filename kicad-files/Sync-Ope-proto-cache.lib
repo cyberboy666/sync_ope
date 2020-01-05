@@ -55,6 +55,52 @@ X ~ TN 200 -100 100 L 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
+# Connector_Barrel_Jack
+#
+DEF Connector_Barrel_Jack J 0 40 Y Y 1 F N
+F0 "J" 0 210 50 H V C CNN
+F1 "Connector_Barrel_Jack" 0 -200 50 H V C CNN
+F2 "" 50 -40 50 H I C CNN
+F3 "" 50 -40 50 H I C CNN
+ALIAS Jack-DC
+$FPLIST
+ BarrelJack*
+$ENDFPLIST
+DRAW
+A -130 100 25 901 -901 0 1 10 F -130 125 -130 75
+A -130 100 25 901 -901 0 1 10 N -130 125 -130 75
+S -200 150 200 -150 0 1 10 f
+S 145 125 -130 75 0 1 10 F
+P 2 0 1 10 200 100 150 100 N
+P 6 0 1 10 -150 -100 -100 -100 -50 -50 0 -100 100 -100 200 -100 N
+X ~ 1 300 100 100 L 50 50 1 1 P
+X ~ 2 300 -100 100 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# Connector_Conn_01x03_Female
+#
+DEF Connector_Conn_01x03_Female J 0 40 Y N 1 F N
+F0 "J" 0 200 50 H V C CNN
+F1 "Connector_Conn_01x03_Female" 0 -200 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+$FPLIST
+ Connector*:*_1x??_*
+$ENDFPLIST
+DRAW
+A 0 -100 20 901 -901 1 1 6 N 0 -80 0 -120
+A 0 0 20 901 -901 1 1 6 N 0 20 0 -20
+A 0 100 20 901 -901 1 1 6 N 0 120 0 80
+P 2 1 1 6 -50 -100 -20 -100 N
+P 2 1 1 6 -50 0 -20 0 N
+P 2 1 1 6 -50 100 -20 100 N
+X Pin_1 1 -200 100 150 R 50 50 1 1 P
+X Pin_2 2 -200 0 150 R 50 50 1 1 P
+X Pin_3 3 -200 -100 150 R 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
 # Connector_Generic_Conn_02x08_Odd_Even
 #
 DEF Connector_Generic_Conn_02x08_Odd_Even J 0 40 Y N 1 F N
@@ -140,6 +186,26 @@ X ~ 2 0 -150 110 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
+# Device_CP_Small
+#
+DEF Device_CP_Small C 0 10 N N 1 F N
+F0 "C" 10 70 50 H V L CNN
+F1 "Device_CP_Small" 10 -80 50 H V L CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+$FPLIST
+ CP_*
+$ENDFPLIST
+DRAW
+S -60 -12 60 -27 0 1 0 F
+S -60 27 60 12 0 1 0 N
+P 2 0 1 0 -50 60 -30 60 N
+P 2 0 1 0 -40 50 -40 70 N
+X ~ 1 0 100 73 D 50 50 1 1 P
+X ~ 2 0 -100 73 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
 # Device_D
 #
 DEF Device_D D 0 40 N N 1 F N
@@ -157,6 +223,50 @@ DRAW
 P 2 0 1 8 -50 50 -50 -50 N
 P 2 0 1 0 50 0 -50 0 N
 P 4 0 1 8 50 50 50 -50 -50 0 50 50 N
+X K 1 -150 0 100 R 50 50 1 1 P
+X A 2 150 0 100 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# Device_D_Schottky
+#
+DEF Device_D_Schottky D 0 40 N N 1 F N
+F0 "D" 0 100 50 H V C CNN
+F1 "Device_D_Schottky" 0 -100 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+$FPLIST
+ TO-???*
+ *_Diode_*
+ *SingleDiode*
+ D_*
+$ENDFPLIST
+DRAW
+P 2 0 1 0 50 0 -50 0 N
+P 4 0 1 8 50 50 50 -50 -50 0 50 50 N
+P 6 0 1 8 -75 25 -75 50 -50 50 -50 -50 -25 -50 -25 -25 N
+X K 1 -150 0 100 R 50 50 1 1 P
+X A 2 150 0 100 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# Device_D_Zener
+#
+DEF Device_D_Zener D 0 40 N N 1 F N
+F0 "D" 0 100 50 H V C CNN
+F1 "Device_D_Zener" 0 -100 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+$FPLIST
+ TO-???*
+ *_Diode_*
+ *SingleDiode*
+ D_*
+$ENDFPLIST
+DRAW
+P 2 0 1 0 50 0 -50 0 N
+P 3 0 1 8 -50 -50 -50 50 -30 50 N
+P 4 0 1 8 50 -50 50 50 -50 0 50 -50 N
 X K 1 -150 0 100 R 50 50 1 1 P
 X A 2 150 0 100 L 50 50 1 1 P
 ENDDRAW
@@ -243,11 +353,11 @@ X VO 3 300 0 100 L 50 50 1 1 w
 ENDDRAW
 ENDDEF
 #
-# Sync-Ope-proto_+5V
+# Sync-Ope-proto-rescue_+5V-Sync-Ope-proto
 #
-DEF Sync-Ope-proto_+5V #PWR 0 0 Y Y 1 F P
+DEF Sync-Ope-proto-rescue_+5V-Sync-Ope-proto #PWR 0 0 Y Y 1 F P
 F0 "#PWR" 0 -150 50 H I C CNN
-F1 "Sync-Ope-proto_+5V" 0 140 50 H V C CNN
+F1 "Sync-Ope-proto-rescue_+5V-Sync-Ope-proto" 0 140 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW
@@ -258,11 +368,11 @@ X +5V 1 0 0 0 U 50 50 1 1 W N
 ENDDRAW
 ENDDEF
 #
-# Sync-Ope-proto_-5V
+# Sync-Ope-proto-rescue_-5V-Sync-Ope-proto
 #
-DEF Sync-Ope-proto_-5V #PWR 0 0 Y Y 1 F N
+DEF Sync-Ope-proto-rescue_-5V-Sync-Ope-proto #PWR 0 0 Y Y 1 F N
 F0 "#PWR" 0 100 50 H I C CNN
-F1 "Sync-Ope-proto_-5V" 0 150 50 H V C CNN
+F1 "Sync-Ope-proto-rescue_-5V-Sync-Ope-proto" 0 150 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW
@@ -271,14 +381,13 @@ X -5V 1 0 0 0 U 50 50 0 0 W N
 ENDDRAW
 ENDDEF
 #
-# Sync-Ope-proto_AD8072
+# Sync-Ope-proto-rescue_AD8072-Sync-Ope-proto
 #
-DEF Sync-Ope-proto_AD8072 U 0 20 Y Y 2 F N
+DEF Sync-Ope-proto-rescue_AD8072-Sync-Ope-proto U 0 20 Y Y 2 F N
 F0 "U" 0 200 50 H V L CNN
-F1 "Sync-Ope-proto_AD8072" 0 -200 50 H V L CNN
+F1 "Sync-Ope-proto-rescue_AD8072-Sync-Ope-proto" 0 -200 50 H V L CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
-ALIAS LM358 AD8620 LMC6062 LMC6082 TL062 TL072 TL082 NE5532 SA5532 RC4558 RC4560 RC4580 LMV358 TS912 TSV912IDT TSV912IST TLC272 TLC277 MCP602 OPA2134 OPA2340 OPA2376xxD OPA2376xxDGK MC33078 MC33178 LM4562 OP249 OP275 ADA4075-2 MCP6002-xP MCP6002-xSN MCP6002-xMS LM7332 OPA2333xxD OPA2333xxDGK LMC6482 LT1492 LTC6081xMS8 LM6172 MCP6L92 NJM2043 NJM2114 NJM4556A NJM4558 NJM4559 NJM4560 NJM4580 NJM5532 ADA4807-2ARM OPA2691 AD8072
 $FPLIST
  SOIC*3.9x4.9mm*Pitch1.27mm*
  DIP*W7.62mm*
@@ -305,11 +414,11 @@ X ~ 7 300 0 100 L 50 50 2 1 O
 ENDDRAW
 ENDDEF
 #
-# Sync-Ope-proto_C
+# Sync-Ope-proto-rescue_C-Sync-Ope-proto
 #
-DEF Sync-Ope-proto_C C 0 10 N Y 1 F N
+DEF Sync-Ope-proto-rescue_C-Sync-Ope-proto C 0 10 N Y 1 F N
 F0 "C" 25 100 50 H V L CNN
-F1 "Sync-Ope-proto_C" 25 -100 50 H V L CNN
+F1 "Sync-Ope-proto-rescue_C-Sync-Ope-proto" 25 -100 50 H V L CNN
 F2 "" 38 -150 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -323,11 +432,11 @@ X ~ 2 0 -150 110 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# Sync-Ope-proto_Conn_Rca
+# Sync-Ope-proto-rescue_Conn_Rca-Sync-Ope-proto
 #
-DEF Sync-Ope-proto_Conn_Rca J 0 40 Y N 1 F N
+DEF Sync-Ope-proto-rescue_Conn_Rca-Sync-Ope-proto J 0 40 Y N 1 F N
 F0 "J" 10 120 50 H V C CNN
-F1 "Sync-Ope-proto_Conn_Rca" 115 0 50 V V C CNN
+F1 "Sync-Ope-proto-rescue_Conn_Rca-Sync-Ope-proto" 115 0 50 V V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -348,11 +457,11 @@ X In 2 -150 0 100 R 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# Sync-Ope-proto_GND
+# Sync-Ope-proto-rescue_GND-Sync-Ope-proto
 #
-DEF Sync-Ope-proto_GND #PWR 0 0 Y Y 1 F P
+DEF Sync-Ope-proto-rescue_GND-Sync-Ope-proto #PWR 0 0 Y Y 1 F P
 F0 "#PWR" 0 -250 50 H I C CNN
-F1 "Sync-Ope-proto_GND" 0 -150 50 H V C CNN
+F1 "Sync-Ope-proto-rescue_GND-Sync-Ope-proto" 0 -150 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW
@@ -361,11 +470,11 @@ X GND 1 0 0 0 D 50 50 1 1 W N
 ENDDRAW
 ENDDEF
 #
-# Sync-Ope-proto_LM1881
+# Sync-Ope-proto-rescue_LM1881-Sync-Ope-proto
 #
-DEF Sync-Ope-proto_LM1881 U 0 40 Y Y 1 F N
+DEF Sync-Ope-proto-rescue_LM1881-Sync-Ope-proto U 0 40 Y Y 1 F N
 F0 "U" 0 500 60 H V C CNN
-F1 "Sync-Ope-proto_LM1881" 0 -50 60 H V C CNN
+F1 "Sync-Ope-proto-rescue_LM1881-Sync-Ope-proto" 0 -50 60 H V C CNN
 F2 "" -300 -50 60 H I C CNN
 F3 "" -300 -50 60 H I C CNN
 DRAW
@@ -381,11 +490,11 @@ X V_cc 8 650 400 200 L 50 39 1 1 W
 ENDDRAW
 ENDDEF
 #
-# Sync-Ope-proto_LT1251
+# Sync-Ope-proto-rescue_LT1251-Sync-Ope-proto
 #
-DEF Sync-Ope-proto_LT1251 U 0 40 Y Y 1 F N
+DEF Sync-Ope-proto-rescue_LT1251-Sync-Ope-proto U 0 40 Y Y 1 F N
 F0 "U" 0 850 60 H V C CNN
-F1 "Sync-Ope-proto_LT1251" 0 -50 60 H V C CNN
+F1 "Sync-Ope-proto-rescue_LT1251-Sync-Ope-proto" 0 -50 60 H V C CNN
 F2 "" -100 -50 60 H I C CNN
 F3 "" -100 -50 60 H I C CNN
 DRAW
@@ -407,11 +516,11 @@ X V+ 9 500 200 200 L 50 39 1 1 I
 ENDDRAW
 ENDDEF
 #
-# Sync-Ope-proto_POT
+# Sync-Ope-proto-rescue_POT-Sync-Ope-proto
 #
-DEF Sync-Ope-proto_POT RV 0 40 N N 1 F N
+DEF Sync-Ope-proto-rescue_POT-Sync-Ope-proto RV 0 40 N N 1 F N
 F0 "RV" -175 0 50 V V C CNN
-F1 "Sync-Ope-proto_POT" -100 0 50 V V C CNN
+F1 "Sync-Ope-proto-rescue_POT-Sync-Ope-proto" -100 0 50 V V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -427,11 +536,11 @@ X 3 3 0 -150 50 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# Sync-Ope-proto_PWR_FLAG
+# Sync-Ope-proto-rescue_PWR_FLAG-Sync-Ope-proto
 #
-DEF Sync-Ope-proto_PWR_FLAG #FLG 0 0 N N 1 F P
+DEF Sync-Ope-proto-rescue_PWR_FLAG-Sync-Ope-proto #FLG 0 0 N N 1 F P
 F0 "#FLG" 0 75 50 H I C CNN
-F1 "Sync-Ope-proto_PWR_FLAG" 0 150 50 H V C CNN
+F1 "Sync-Ope-proto-rescue_PWR_FLAG-Sync-Ope-proto" 0 150 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW
@@ -440,11 +549,11 @@ X pwr 1 0 0 0 U 50 50 0 0 w
 ENDDRAW
 ENDDEF
 #
-# Sync-Ope-proto_R
+# Sync-Ope-proto-rescue_R-Sync-Ope-proto
 #
-DEF Sync-Ope-proto_R R 0 0 N Y 1 F N
+DEF Sync-Ope-proto-rescue_R-Sync-Ope-proto R 0 0 N Y 1 F N
 F0 "R" 80 0 50 V V C CNN
-F1 "Sync-Ope-proto_R" 0 0 50 V V C CNN
+F1 "Sync-Ope-proto-rescue_R-Sync-Ope-proto" 0 0 50 V V C CNN
 F2 "" -70 0 50 V I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
