@@ -353,11 +353,11 @@ X VO 3 300 0 100 L 50 50 1 1 w
 ENDDRAW
 ENDDEF
 #
-# Sync-Ope-proto-rescue_+5V-Sync-Ope-proto
+# Sync-Ope-proto-rescue_+5V-Sync-Ope-proto-Sync-Ope-proto-rescue
 #
-DEF Sync-Ope-proto-rescue_+5V-Sync-Ope-proto #PWR 0 0 Y Y 1 F P
+DEF Sync-Ope-proto-rescue_+5V-Sync-Ope-proto-Sync-Ope-proto-rescue #PWR 0 0 Y Y 1 F P
 F0 "#PWR" 0 -150 50 H I C CNN
-F1 "Sync-Ope-proto-rescue_+5V-Sync-Ope-proto" 0 140 50 H V C CNN
+F1 "Sync-Ope-proto-rescue_+5V-Sync-Ope-proto-Sync-Ope-proto-rescue" 0 140 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW
@@ -368,11 +368,11 @@ X +5V 1 0 0 0 U 50 50 1 1 W N
 ENDDRAW
 ENDDEF
 #
-# Sync-Ope-proto-rescue_-5V-Sync-Ope-proto
+# Sync-Ope-proto-rescue_-5V-Sync-Ope-proto-Sync-Ope-proto-rescue
 #
-DEF Sync-Ope-proto-rescue_-5V-Sync-Ope-proto #PWR 0 0 Y Y 1 F N
+DEF Sync-Ope-proto-rescue_-5V-Sync-Ope-proto-Sync-Ope-proto-rescue #PWR 0 0 Y Y 1 F N
 F0 "#PWR" 0 100 50 H I C CNN
-F1 "Sync-Ope-proto-rescue_-5V-Sync-Ope-proto" 0 150 50 H V C CNN
+F1 "Sync-Ope-proto-rescue_-5V-Sync-Ope-proto-Sync-Ope-proto-rescue" 0 150 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW
@@ -381,11 +381,11 @@ X -5V 1 0 0 0 U 50 50 0 0 W N
 ENDDRAW
 ENDDEF
 #
-# Sync-Ope-proto-rescue_AD8072-Sync-Ope-proto
+# Sync-Ope-proto-rescue_AD8072-Sync-Ope-proto-Sync-Ope-proto-rescue
 #
-DEF Sync-Ope-proto-rescue_AD8072-Sync-Ope-proto U 0 20 Y Y 2 F N
+DEF Sync-Ope-proto-rescue_AD8072-Sync-Ope-proto-Sync-Ope-proto-rescue U 0 20 Y Y 2 F N
 F0 "U" 0 200 50 H V L CNN
-F1 "Sync-Ope-proto-rescue_AD8072-Sync-Ope-proto" 0 -200 50 H V L CNN
+F1 "Sync-Ope-proto-rescue_AD8072-Sync-Ope-proto-Sync-Ope-proto-rescue" 0 -200 50 H V L CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -414,11 +414,11 @@ X ~ 7 300 0 100 L 50 50 2 1 O
 ENDDRAW
 ENDDEF
 #
-# Sync-Ope-proto-rescue_C-Sync-Ope-proto
+# Sync-Ope-proto-rescue_C-Sync-Ope-proto-Sync-Ope-proto-rescue
 #
-DEF Sync-Ope-proto-rescue_C-Sync-Ope-proto C 0 10 N Y 1 F N
+DEF Sync-Ope-proto-rescue_C-Sync-Ope-proto-Sync-Ope-proto-rescue C 0 10 N Y 1 F N
 F0 "C" 25 100 50 H V L CNN
-F1 "Sync-Ope-proto-rescue_C-Sync-Ope-proto" 25 -100 50 H V L CNN
+F1 "Sync-Ope-proto-rescue_C-Sync-Ope-proto-Sync-Ope-proto-rescue" 25 -100 50 H V L CNN
 F2 "" 38 -150 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -432,11 +432,11 @@ X ~ 2 0 -150 110 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# Sync-Ope-proto-rescue_Conn_Rca-Sync-Ope-proto
+# Sync-Ope-proto-rescue_Conn_Rca-Sync-Ope-proto-Sync-Ope-proto-rescue
 #
-DEF Sync-Ope-proto-rescue_Conn_Rca-Sync-Ope-proto J 0 40 Y N 1 F N
+DEF Sync-Ope-proto-rescue_Conn_Rca-Sync-Ope-proto-Sync-Ope-proto-rescue J 0 40 Y N 1 F N
 F0 "J" 10 120 50 H V C CNN
-F1 "Sync-Ope-proto-rescue_Conn_Rca-Sync-Ope-proto" 115 0 50 V V C CNN
+F1 "Sync-Ope-proto-rescue_Conn_Rca-Sync-Ope-proto-Sync-Ope-proto-rescue" 115 0 50 V V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -457,11 +457,11 @@ X In 2 -150 0 100 R 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# Sync-Ope-proto-rescue_GND-Sync-Ope-proto
+# Sync-Ope-proto-rescue_GND-Sync-Ope-proto-Sync-Ope-proto-rescue
 #
-DEF Sync-Ope-proto-rescue_GND-Sync-Ope-proto #PWR 0 0 Y Y 1 F P
+DEF Sync-Ope-proto-rescue_GND-Sync-Ope-proto-Sync-Ope-proto-rescue #PWR 0 0 Y Y 1 F P
 F0 "#PWR" 0 -250 50 H I C CNN
-F1 "Sync-Ope-proto-rescue_GND-Sync-Ope-proto" 0 -150 50 H V C CNN
+F1 "Sync-Ope-proto-rescue_GND-Sync-Ope-proto-Sync-Ope-proto-rescue" 0 -150 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW
@@ -470,11 +470,11 @@ X GND 1 0 0 0 D 50 50 1 1 W N
 ENDDRAW
 ENDDEF
 #
-# Sync-Ope-proto-rescue_LM1881-Sync-Ope-proto
+# Sync-Ope-proto-rescue_LM1881-Sync-Ope-proto-Sync-Ope-proto-rescue
 #
-DEF Sync-Ope-proto-rescue_LM1881-Sync-Ope-proto U 0 40 Y Y 1 F N
+DEF Sync-Ope-proto-rescue_LM1881-Sync-Ope-proto-Sync-Ope-proto-rescue U 0 40 Y Y 1 F N
 F0 "U" 0 500 60 H V C CNN
-F1 "Sync-Ope-proto-rescue_LM1881-Sync-Ope-proto" 0 -50 60 H V C CNN
+F1 "Sync-Ope-proto-rescue_LM1881-Sync-Ope-proto-Sync-Ope-proto-rescue" 0 -50 60 H V C CNN
 F2 "" -300 -50 60 H I C CNN
 F3 "" -300 -50 60 H I C CNN
 DRAW
@@ -490,11 +490,11 @@ X V_cc 8 650 400 200 L 50 39 1 1 W
 ENDDRAW
 ENDDEF
 #
-# Sync-Ope-proto-rescue_LT1251-Sync-Ope-proto
+# Sync-Ope-proto-rescue_LT1251-Sync-Ope-proto-Sync-Ope-proto-rescue
 #
-DEF Sync-Ope-proto-rescue_LT1251-Sync-Ope-proto U 0 40 Y Y 1 F N
+DEF Sync-Ope-proto-rescue_LT1251-Sync-Ope-proto-Sync-Ope-proto-rescue U 0 40 Y Y 1 F N
 F0 "U" 0 850 60 H V C CNN
-F1 "Sync-Ope-proto-rescue_LT1251-Sync-Ope-proto" 0 -50 60 H V C CNN
+F1 "Sync-Ope-proto-rescue_LT1251-Sync-Ope-proto-Sync-Ope-proto-rescue" 0 -50 60 H V C CNN
 F2 "" -100 -50 60 H I C CNN
 F3 "" -100 -50 60 H I C CNN
 DRAW
@@ -516,11 +516,11 @@ X V+ 9 500 200 200 L 50 39 1 1 I
 ENDDRAW
 ENDDEF
 #
-# Sync-Ope-proto-rescue_POT-Sync-Ope-proto
+# Sync-Ope-proto-rescue_POT-Sync-Ope-proto-Sync-Ope-proto-rescue
 #
-DEF Sync-Ope-proto-rescue_POT-Sync-Ope-proto RV 0 40 N N 1 F N
+DEF Sync-Ope-proto-rescue_POT-Sync-Ope-proto-Sync-Ope-proto-rescue RV 0 40 N N 1 F N
 F0 "RV" -175 0 50 V V C CNN
-F1 "Sync-Ope-proto-rescue_POT-Sync-Ope-proto" -100 0 50 V V C CNN
+F1 "Sync-Ope-proto-rescue_POT-Sync-Ope-proto-Sync-Ope-proto-rescue" -100 0 50 V V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -536,11 +536,11 @@ X 3 3 0 -150 50 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# Sync-Ope-proto-rescue_PWR_FLAG-Sync-Ope-proto
+# Sync-Ope-proto-rescue_PWR_FLAG-Sync-Ope-proto-Sync-Ope-proto-rescue
 #
-DEF Sync-Ope-proto-rescue_PWR_FLAG-Sync-Ope-proto #FLG 0 0 N N 1 F P
+DEF Sync-Ope-proto-rescue_PWR_FLAG-Sync-Ope-proto-Sync-Ope-proto-rescue #FLG 0 0 N N 1 F P
 F0 "#FLG" 0 75 50 H I C CNN
-F1 "Sync-Ope-proto-rescue_PWR_FLAG-Sync-Ope-proto" 0 150 50 H V C CNN
+F1 "Sync-Ope-proto-rescue_PWR_FLAG-Sync-Ope-proto-Sync-Ope-proto-rescue" 0 150 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW
@@ -549,11 +549,11 @@ X pwr 1 0 0 0 U 50 50 0 0 w
 ENDDRAW
 ENDDEF
 #
-# Sync-Ope-proto-rescue_R-Sync-Ope-proto
+# Sync-Ope-proto-rescue_R-Sync-Ope-proto-Sync-Ope-proto-rescue
 #
-DEF Sync-Ope-proto-rescue_R-Sync-Ope-proto R 0 0 N Y 1 F N
+DEF Sync-Ope-proto-rescue_R-Sync-Ope-proto-Sync-Ope-proto-rescue R 0 0 N Y 1 F N
 F0 "R" 80 0 50 V V C CNN
-F1 "Sync-Ope-proto-rescue_R-Sync-Ope-proto" 0 0 50 V V C CNN
+F1 "Sync-Ope-proto-rescue_R-Sync-Ope-proto-Sync-Ope-proto-rescue" 0 0 50 V V C CNN
 F2 "" -70 0 50 V I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST

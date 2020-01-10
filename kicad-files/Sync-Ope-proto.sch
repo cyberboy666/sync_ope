@@ -15,7 +15,7 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L Sync-Ope-proto-rescue:AD8072-Sync-Ope-proto U1
+L Sync-Ope-proto-rescue:AD8072-Sync-Ope-proto-Sync-Ope-proto-rescue U1
 U 1 1 5DB6BAB3
 P 2750 1575
 F 0 "U1" H 2750 1775 50  0000 L CNN
@@ -26,7 +26,7 @@ F 3 "" H 2750 1575 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Sync-Ope-proto-rescue:AD8072-Sync-Ope-proto U1
+L Sync-Ope-proto-rescue:AD8072-Sync-Ope-proto-Sync-Ope-proto-rescue U1
 U 2 1 5DB6BB03
 P 3025 2725
 F 0 "U1" H 3025 2925 50  0000 L CNN
@@ -37,7 +37,7 @@ F 3 "" H 3025 2725 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Sync-Ope-proto-rescue:GND-Sync-Ope-proto #PWR04
+L Sync-Ope-proto-rescue:GND-Sync-Ope-proto-Sync-Ope-proto-rescue #PWR04
 U 1 1 5DB6BD48
 P 1400 1925
 F 0 "#PWR04" H 1400 1675 50  0001 C CNN
@@ -48,7 +48,7 @@ F 3 "" H 1400 1925 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Sync-Ope-proto-rescue:R-Sync-Ope-proto R4
+L Sync-Ope-proto-rescue:R-Sync-Ope-proto-Sync-Ope-proto-rescue R4
 U 1 1 5DB6BE2D
 P 2300 1675
 F 0 "R4" V 2380 1675 50  0000 C CNN
@@ -59,7 +59,7 @@ F 3 "" H 2300 1675 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Sync-Ope-proto-rescue:R-Sync-Ope-proto R6
+L Sync-Ope-proto-rescue:R-Sync-Ope-proto-Sync-Ope-proto-rescue R6
 U 1 1 5DB6BE5E
 P 2575 2825
 F 0 "R6" V 2655 2825 50  0000 C CNN
@@ -70,7 +70,7 @@ F 3 "" H 2575 2825 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Sync-Ope-proto-rescue:+5V-Sync-Ope-proto #PWR010
+L Sync-Ope-proto-rescue:+5V-Sync-Ope-proto-Sync-Ope-proto-rescue #PWR010
 U 1 1 5DB6BEB9
 P 2650 1200
 F 0 "#PWR010" H 2650 1050 50  0001 C CNN
@@ -83,7 +83,7 @@ $EndComp
 Wire Wire Line
 	2650 1200 2650 1275
 $Comp
-L Sync-Ope-proto-rescue:+5V-Sync-Ope-proto #PWR014
+L Sync-Ope-proto-rescue:+5V-Sync-Ope-proto-Sync-Ope-proto-rescue #PWR014
 U 1 1 5DB6BEEB
 P 2925 2350
 F 0 "#PWR014" H 2925 2200 50  0001 C CNN
@@ -106,7 +106,7 @@ Wire Wire Line
 Wire Wire Line
 	2425 3100 2425 2825
 $Comp
-L Sync-Ope-proto-rescue:-5V-Sync-Ope-proto #PWR9
+L Sync-Ope-proto-rescue:-5V-Sync-Ope-proto-Sync-Ope-proto-rescue #PWR9
 U 1 1 5DB6C058
 P 2425 2000
 F 0 "#PWR9" H 2425 2100 50  0001 C CNN
@@ -121,7 +121,7 @@ Wire Wire Line
 Wire Wire Line
 	2425 1875 2425 2000
 $Comp
-L Sync-Ope-proto-rescue:-5V-Sync-Ope-proto #PWR12
+L Sync-Ope-proto-rescue:-5V-Sync-Ope-proto-Sync-Ope-proto-rescue #PWR12
 U 1 1 5DB6C0D6
 P 2725 3200
 F 0 "#PWR12" H 2725 3300 50  0001 C CNN
@@ -136,7 +136,7 @@ Wire Wire Line
 Wire Wire Line
 	2725 3025 2725 3200
 $Comp
-L Sync-Ope-proto-rescue:GND-Sync-Ope-proto #PWR016
+L Sync-Ope-proto-rescue:GND-Sync-Ope-proto-Sync-Ope-proto-rescue #PWR016
 U 1 1 5DB6C59E
 P 3975 2925
 F 0 "#PWR016" H 3975 2675 50  0001 C CNN
@@ -147,7 +147,7 @@ F 3 "" H 3975 2925 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Sync-Ope-proto-rescue:R-Sync-Ope-proto R8
+L Sync-Ope-proto-rescue:R-Sync-Ope-proto-Sync-Ope-proto-rescue R8
 U 1 1 5DB6C5C2
 P 3725 2725
 F 0 "R8" V 3805 2725 50  0000 C CNN
@@ -160,7 +160,7 @@ $EndComp
 Text GLabel 1700 4375 0    60   Input ~ 0
 VIDEO_TO_SYNC
 $Comp
-L Sync-Ope-proto-rescue:LM1881-Sync-Ope-proto U2
+L Sync-Ope-proto-rescue:LM1881-Sync-Ope-proto-Sync-Ope-proto-rescue U2
 U 1 1 5DB6CFDE
 P 3350 4675
 F 0 "U2" H 3350 5175 60  0000 C CNN
@@ -171,7 +171,7 @@ F 3 "" H 3050 4625 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Sync-Ope-proto-rescue:C-Sync-Ope-proto C3
+L Sync-Ope-proto-rescue:C-Sync-Ope-proto-Sync-Ope-proto-rescue C3
 U 1 1 5DB6D144
 P 2325 4375
 F 0 "C3" H 2350 4475 50  0000 L CNN
@@ -185,7 +185,7 @@ Wire Wire Line
 	2475 4375 2700 4375
 NoConn ~ 4000 4375
 $Comp
-L Sync-Ope-proto-rescue:+5V-Sync-Ope-proto #PWR018
+L Sync-Ope-proto-rescue:+5V-Sync-Ope-proto-Sync-Ope-proto-rescue #PWR018
 U 1 1 5DB6D3A9
 P 4125 3800
 F 0 "#PWR018" H 4125 3650 50  0001 C CNN
@@ -200,7 +200,7 @@ Wire Wire Line
 Wire Wire Line
 	4125 3800 4125 4275
 $Comp
-L Sync-Ope-proto-rescue:GND-Sync-Ope-proto #PWR011
+L Sync-Ope-proto-rescue:GND-Sync-Ope-proto-Sync-Ope-proto-rescue #PWR011
 U 1 1 5DB6D40B
 P 2700 5150
 F 0 "#PWR011" H 2700 4900 50  0001 C CNN
@@ -211,7 +211,7 @@ F 3 "" H 2700 5150 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Sync-Ope-proto-rescue:R-Sync-Ope-proto R9
+L Sync-Ope-proto-rescue:R-Sync-Ope-proto-Sync-Ope-proto-rescue R9
 U 1 1 5DB6D49F
 P 4350 4475
 F 0 "R9" V 4430 4475 50  0000 C CNN
@@ -222,7 +222,7 @@ F 3 "" H 4350 4475 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Sync-Ope-proto-rescue:C-Sync-Ope-proto C4
+L Sync-Ope-proto-rescue:C-Sync-Ope-proto-Sync-Ope-proto-rescue C4
 U 1 1 5DB6D4EA
 P 4350 4300
 F 0 "C4" H 4375 4400 39  0000 L CNN
@@ -237,7 +237,7 @@ Wire Wire Line
 Wire Wire Line
 	4200 4475 4200 4300
 $Comp
-L Sync-Ope-proto-rescue:GND-Sync-Ope-proto #PWR020
+L Sync-Ope-proto-rescue:GND-Sync-Ope-proto-Sync-Ope-proto-rescue #PWR020
 U 1 1 5DB6D6AF
 P 4650 4825
 F 0 "#PWR020" H 4650 4575 50  0001 C CNN
@@ -267,7 +267,7 @@ Wire Wire Line
 Wire Wire Line
 	4000 4700 4925 4700
 $Comp
-L Sync-Ope-proto-rescue:LT1251-Sync-Ope-proto U5
+L Sync-Ope-proto-rescue:LT1251-Sync-Ope-proto-Sync-Ope-proto-rescue U5
 U 1 1 5DB717D4
 P 8375 2525
 F 0 "U5" H 8375 3375 60  0000 C CNN
@@ -278,7 +278,7 @@ F 3 "" H 8275 2475 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Sync-Ope-proto-rescue:GND-Sync-Ope-proto #PWR024
+L Sync-Ope-proto-rescue:GND-Sync-Ope-proto-Sync-Ope-proto-rescue #PWR024
 U 1 1 5DB71BE2
 P 7075 2600
 F 0 "#PWR024" H 7075 2350 50  0001 C CNN
@@ -289,7 +289,7 @@ F 3 "" H 7075 2600 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Sync-Ope-proto-rescue:R-Sync-Ope-proto R13
+L Sync-Ope-proto-rescue:R-Sync-Ope-proto-Sync-Ope-proto-rescue R13
 U 1 1 5DB71E30
 P 7575 1400
 F 0 "R13" V 7655 1400 50  0000 C CNN
@@ -302,7 +302,7 @@ $EndComp
 Wire Wire Line
 	9325 1825 8875 1825
 $Comp
-L Sync-Ope-proto-rescue:R-Sync-Ope-proto R15
+L Sync-Ope-proto-rescue:R-Sync-Ope-proto-Sync-Ope-proto-rescue R15
 U 1 1 5DB72713
 P 7725 1925
 F 0 "R15" V 7805 1925 50  0000 C CNN
@@ -313,7 +313,7 @@ F 3 "" H 7725 1925 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Sync-Ope-proto-rescue:R-Sync-Ope-proto R17
+L Sync-Ope-proto-rescue:R-Sync-Ope-proto-Sync-Ope-proto-rescue R17
 U 1 1 5DB72840
 P 9175 1925
 F 0 "R17" V 9255 1925 50  0000 C CNN
@@ -326,7 +326,7 @@ $EndComp
 NoConn ~ 7875 2125
 NoConn ~ 8875 2125
 $Comp
-L Sync-Ope-proto-rescue:GND-Sync-Ope-proto #PWR033
+L Sync-Ope-proto-rescue:GND-Sync-Ope-proto-Sync-Ope-proto-rescue #PWR033
 U 1 1 5DB72D25
 P 9525 2625
 F 0 "#PWR033" H 9525 2375 50  0001 C CNN
@@ -342,7 +342,7 @@ Wire Wire Line
 	9525 2125 9525 2225
 NoConn ~ 7875 2325
 $Comp
-L Sync-Ope-proto-rescue:-5V-Sync-Ope-proto #PWR26
+L Sync-Ope-proto-rescue:-5V-Sync-Ope-proto-Sync-Ope-proto-rescue #PWR26
 U 1 1 5DB72F1F
 P 7875 2750
 F 0 "#PWR26" H 7875 2850 50  0001 C CNN
@@ -353,7 +353,7 @@ F 3 "" H 7875 2750 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L Sync-Ope-proto-rescue:+5V-Sync-Ope-proto #PWR034
+L Sync-Ope-proto-rescue:+5V-Sync-Ope-proto-Sync-Ope-proto-rescue #PWR034
 U 1 1 5DB73053
 P 9850 1775
 F 0 "#PWR034" H 9850 1625 50  0001 C CNN
@@ -364,7 +364,7 @@ F 3 "" H 9850 1775 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Sync-Ope-proto-rescue:R-Sync-Ope-proto R18
+L Sync-Ope-proto-rescue:R-Sync-Ope-proto-Sync-Ope-proto-rescue R18
 U 1 1 5DB7312B
 P 9325 2125
 F 0 "R18" V 9405 2125 39  0000 C CNN
@@ -375,7 +375,7 @@ F 3 "" H 9325 2125 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Sync-Ope-proto-rescue:R-Sync-Ope-proto R19
+L Sync-Ope-proto-rescue:R-Sync-Ope-proto-Sync-Ope-proto-rescue R19
 U 1 1 5DB73D34
 P 9675 2025
 F 0 "R19" V 9755 2025 39  0000 C CNN
@@ -403,7 +403,7 @@ Wire Wire Line
 Wire Wire Line
 	7450 1925 7575 1925
 $Comp
-L Sync-Ope-proto-rescue:GND-Sync-Ope-proto #PWR035
+L Sync-Ope-proto-rescue:GND-Sync-Ope-proto-Sync-Ope-proto-rescue #PWR035
 U 1 1 5DB75A8A
 P 10600 2800
 F 0 "#PWR035" H 10600 2550 50  0001 C CNN
@@ -414,7 +414,7 @@ F 3 "" H 10600 2800 50  0001 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L Sync-Ope-proto-rescue:R-Sync-Ope-proto R20
+L Sync-Ope-proto-rescue:R-Sync-Ope-proto-Sync-Ope-proto-rescue R20
 U 1 1 5DB75A90
 P 10250 2525
 F 0 "R20" V 10330 2525 50  0000 C CNN
@@ -443,7 +443,7 @@ CV Video Fader
 Text Notes 1050 6000 0    79   ~ 0
 Power Supply
 $Comp
-L Sync-Ope-proto-rescue:PWR_FLAG-Sync-Ope-proto #FLG02
+L Sync-Ope-proto-rescue:PWR_FLAG-Sync-Ope-proto-Sync-Ope-proto-rescue #FLG02
 U 1 1 5DB7A4FE
 P 4725 6000
 F 0 "#FLG02" H 4725 6075 50  0001 C CNN
@@ -454,7 +454,7 @@ F 3 "" H 4725 6000 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Sync-Ope-proto-rescue:PWR_FLAG-Sync-Ope-proto #FLG03
+L Sync-Ope-proto-rescue:PWR_FLAG-Sync-Ope-proto-Sync-Ope-proto-rescue #FLG03
 U 1 1 5DB7A70A
 P 4400 6200
 F 0 "#FLG03" H 4400 6275 50  0001 C CNN
@@ -465,7 +465,7 @@ F 3 "" H 4400 6200 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Sync-Ope-proto-rescue:PWR_FLAG-Sync-Ope-proto #FLG01
+L Sync-Ope-proto-rescue:PWR_FLAG-Sync-Ope-proto-Sync-Ope-proto-rescue #FLG01
 U 1 1 5DB7A8B8
 P 4725 5800
 F 0 "#FLG01" H 4725 5875 50  0001 C CNN
@@ -476,7 +476,7 @@ F 3 "" H 4725 5800 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Sync-Ope-proto-rescue:POT-Sync-Ope-proto RV1
+L Sync-Ope-proto-rescue:POT-Sync-Ope-proto-Sync-Ope-proto-rescue RV1
 U 1 1 5DB76F3B
 P 6725 2025
 F 0 "RV1" V 6550 2025 50  0000 C CNN
@@ -487,7 +487,7 @@ F 3 "" H 6725 2025 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Sync-Ope-proto-rescue:R-Sync-Ope-proto R12
+L Sync-Ope-proto-rescue:R-Sync-Ope-proto-Sync-Ope-proto-rescue R12
 U 1 1 5DB7F722
 P 7375 1825
 F 0 "R12" V 7455 1825 50  0000 C CNN
@@ -504,7 +504,7 @@ Wire Wire Line
 Wire Wire Line
 	6725 2175 6725 2225
 $Comp
-L Sync-Ope-proto-rescue:R-Sync-Ope-proto R11
+L Sync-Ope-proto-rescue:R-Sync-Ope-proto-Sync-Ope-proto-rescue R11
 U 1 1 5DB80EB4
 P 7275 2025
 F 0 "R11" V 7355 2025 50  0000 C CNN
@@ -523,7 +523,7 @@ Wire Wire Line
 Wire Wire Line
 	1550 1475 1650 1475
 $Comp
-L Sync-Ope-proto-rescue:R-Sync-Ope-proto R1
+L Sync-Ope-proto-rescue:R-Sync-Ope-proto-Sync-Ope-proto-rescue R1
 U 1 1 5DB6BD67
 P 1650 1625
 F 0 "R1" V 1730 1625 50  0000 C CNN
@@ -536,7 +536,7 @@ $EndComp
 Wire Wire Line
 	7425 2025 7875 2025
 $Comp
-L Sync-Ope-proto-rescue:C-Sync-Ope-proto C5
+L Sync-Ope-proto-rescue:C-Sync-Ope-proto-Sync-Ope-proto-rescue C5
 U 1 1 5DB9B36B
 P 9000 2225
 F 0 "C5" H 9025 2325 50  0000 L CNN
@@ -556,7 +556,7 @@ Connection ~ 9000 2025
 Wire Wire Line
 	9000 2025 9100 2025
 $Comp
-L Sync-Ope-proto-rescue:GND-Sync-Ope-proto #PWR032
+L Sync-Ope-proto-rescue:GND-Sync-Ope-proto-Sync-Ope-proto-rescue #PWR032
 U 1 1 5DBAB6B3
 P 9000 2625
 F 0 "#PWR032" H 9000 2375 50  0001 C CNN
@@ -697,7 +697,7 @@ Wire Wire Line
 Text Notes 6850 3475 0    79   ~ 0
 Signal Blanking
 $Comp
-L Sync-Ope-proto-rescue:+5V-Sync-Ope-proto #PWR030
+L Sync-Ope-proto-rescue:+5V-Sync-Ope-proto-Sync-Ope-proto-rescue #PWR030
 U 1 1 5DCF1AA3
 P 8700 3950
 F 0 "#PWR030" H 8700 3800 50  0001 C CNN
@@ -708,7 +708,7 @@ F 3 "" H 8700 3950 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Sync-Ope-proto-rescue:-5V-Sync-Ope-proto #PWR31
+L Sync-Ope-proto-rescue:-5V-Sync-Ope-proto-Sync-Ope-proto-rescue #PWR31
 U 1 1 5DD5D6B4
 P 8800 6075
 F 0 "#PWR31" H 8800 6175 50  0001 C CNN
@@ -745,7 +745,7 @@ $EndComp
 Wire Wire Line
 	7075 1825 7075 2225
 $Comp
-L Sync-Ope-proto-rescue:GND-Sync-Ope-proto #PWR029
+L Sync-Ope-proto-rescue:GND-Sync-Ope-proto-Sync-Ope-proto-rescue #PWR029
 U 1 1 5DCF6ECA
 P 8300 5900
 F 0 "#PWR029" H 8300 5650 50  0001 C CNN
@@ -787,7 +787,7 @@ F 3 "~" H 7675 4775 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Sync-Ope-proto-rescue:+5V-Sync-Ope-proto #PWR025
+L Sync-Ope-proto-rescue:+5V-Sync-Ope-proto-Sync-Ope-proto-rescue #PWR025
 U 1 1 5DE95345
 P 7675 4625
 F 0 "#PWR025" H 7675 4475 50  0001 C CNN
@@ -844,7 +844,7 @@ F 3 "http://www.intersil.com/content/dam/Intersil/documents/cd40/cd4051bms-52bms
 	1    0    0    -1  
 $EndComp
 $Comp
-L Sync-Ope-proto-rescue:+5V-Sync-Ope-proto #PWR027
+L Sync-Ope-proto-rescue:+5V-Sync-Ope-proto-Sync-Ope-proto-rescue #PWR027
 U 1 1 5DE47489
 P 8100 3550
 F 0 "#PWR027" H 8100 3400 50  0001 C CNN
@@ -909,7 +909,7 @@ Connection ~ 2700 5075
 Wire Wire Line
 	2550 5075 2700 5075
 $Comp
-L Sync-Ope-proto-rescue:R-Sync-Ope-proto R5
+L Sync-Ope-proto-rescue:R-Sync-Ope-proto-Sync-Ope-proto-rescue R5
 U 1 1 5E0F4BED
 P 2550 4925
 F 0 "R5" V 2630 4925 50  0000 C CNN
@@ -1218,7 +1218,7 @@ Wire Wire Line
 Wire Wire Line
 	5325 6500 5325 6750
 $Comp
-L Sync-Ope-proto-rescue:Conn_Rca-Sync-Ope-proto J1
+L Sync-Ope-proto-rescue:Conn_Rca-Sync-Ope-proto-Sync-Ope-proto-rescue J1
 U 1 1 5E12D073
 P 1400 1475
 F 0 "J1" H 1353 1713 50  0000 C CNN
@@ -1229,7 +1229,7 @@ F 3 "" H 1400 1475 50  0001 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L Sync-Ope-proto-rescue:Conn_Rca-Sync-Ope-proto J6
+L Sync-Ope-proto-rescue:Conn_Rca-Sync-Ope-proto-Sync-Ope-proto-rescue J6
 U 1 1 5E165212
 P 10600 2525
 F 0 "J6" H 10575 2650 50  0000 L CNN
