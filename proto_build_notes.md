@@ -35,3 +35,17 @@ RV1 | 10k | - | -
 
 # Building
 
+- reseistor footprints are a little tight
+- some r values are not so well grouped (r3)
+- 0.1u caps abit too spaced ,( shoild be placed closer to the power pins ?)
+- not obvious which way the led goes
+- (black is not a good colour pcb for prototyping !)
+- u should test the power distro before pluging in the ic's !!
+- dunno why but it doesnt work - power problems it seems/..
+
+
+readings:
+- +12 => +5/+15
+- -12 => -12
+- +5 => -10 ?
+- -5 => -1 ?
