@@ -42,10 +42,7 @@ RV1 | 10k | - | -
 - (black is not a good colour pcb for prototyping !)
 - u should test the power distro before pluging in the ic's !!
 - dunno why but it doesnt work - power problems it seems/..
+- figured out why - the power regulators footprint was backwards, so on this revision they need to be placed with the back (metal) facing up
+- another pcb mistake - the rca jacks outer ring is not connected, for this revision small jumpers need to be made from the ring to a nearby ground pin (eg cap/resistor directly below) for both input and output
 
 
-readings:
-- +12 => +5/+15
-- -12 => -12
-- +5 => -10 ?
-- -5 => -1 ?
