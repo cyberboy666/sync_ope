@@ -20,7 +20,7 @@ U 1 1 5DB6BAB3
 P 2750 1575
 F 0 "U1" H 2750 1775 50  0000 L CNN
 F 1 "AD8072" H 2750 1375 50  0000 L CNN
-F 2 "Package_DIP:DIP-8_W7.62mm" H 2750 1575 50  0001 C CNN
+F 2 "Package_DIP:DIP-8_W7.62mm_LongPads" H 2750 1575 50  0001 C CNN
 F 3 "" H 2750 1575 50  0001 C CNN
 	1    2750 1575
 	1    0    0    -1  
@@ -31,7 +31,7 @@ U 2 1 5DB6BB03
 P 3025 2725
 F 0 "U1" H 3025 2925 50  0000 L CNN
 F 1 "AD8072" H 3025 2525 50  0000 L CNN
-F 2 "Package_DIP:DIP-8_W7.62mm" H 3025 2725 50  0001 C CNN
+F 2 "Package_DIP:DIP-8_W7.62mm_LongPads" H 3025 2725 50  0001 C CNN
 F 3 "" H 3025 2725 50  0001 C CNN
 	2    3025 2725
 	1    0    0    -1  
@@ -53,7 +53,7 @@ U 1 1 5DB6BE2D
 P 2300 1675
 F 0 "R4" V 2380 1675 50  0000 C CNN
 F 1 "1.5k" V 2300 1675 50  0000 C CNN
-F 2 "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal" V 2230 1675 50  0001 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal" V 2230 1675 50  0001 C CNN
 F 3 "" H 2300 1675 50  0001 C CNN
 	1    2300 1675
 	0    1    1    0   
@@ -64,7 +64,7 @@ U 1 1 5DB6BE5E
 P 2575 2825
 F 0 "R6" V 2655 2825 50  0000 C CNN
 F 1 "1.5k" V 2575 2825 50  0000 C CNN
-F 2 "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal" V 2505 2825 50  0001 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal" V 2505 2825 50  0001 C CNN
 F 3 "" H 2575 2825 50  0001 C CNN
 	1    2575 2825
 	0    1    1    0   
@@ -152,7 +152,7 @@ U 1 1 5DB6C5C2
 P 3725 2725
 F 0 "R8" V 3805 2725 50  0000 C CNN
 F 1 "75" V 3725 2725 50  0000 C CNN
-F 2 "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal" V 3655 2725 50  0001 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal" V 3655 2725 50  0001 C CNN
 F 3 "" H 3725 2725 50  0001 C CNN
 	1    3725 2725
 	0    -1   -1   0   
@@ -165,7 +165,7 @@ U 1 1 5DB6CFDE
 P 3350 4675
 F 0 "U2" H 3350 5175 60  0000 C CNN
 F 1 "LM1881" H 3350 4625 60  0000 C CNN
-F 2 "Package_DIP:DIP-8_W7.62mm" H 3050 4625 60  0001 C CNN
+F 2 "Package_DIP:DIP-8_W7.62mm_LongPads" H 3050 4625 60  0001 C CNN
 F 3 "" H 3050 4625 60  0001 C CNN
 	1    3350 4675
 	1    0    0    -1  
@@ -176,7 +176,7 @@ U 1 1 5DB6D144
 P 2325 4375
 F 0 "C3" H 2350 4475 50  0000 L CNN
 F 1 "100n" V 2175 4300 50  0000 L CNN
-F 2 "Capacitor_THT:C_Axial_L3.8mm_D2.6mm_P7.50mm_Horizontal" H 2363 4225 50  0001 C CNN
+F 2 "Capacitor_THT:C_Disc_D4.3mm_W1.9mm_P5.00mm" H 2363 4225 50  0001 C CNN
 F 3 "" H 2325 4375 50  0001 C CNN
 	1    2325 4375
 	0    1    1    0   
@@ -216,7 +216,7 @@ U 1 1 5DB6D49F
 P 4350 4475
 F 0 "R9" V 4430 4475 50  0000 C CNN
 F 1 "680k" V 4350 4475 50  0000 C CNN
-F 2 "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal" V 4280 4475 50  0001 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal" V 4280 4475 50  0001 C CNN
 F 3 "" H 4350 4475 50  0001 C CNN
 	1    4350 4475
 	0    1    1    0   
@@ -227,7 +227,7 @@ U 1 1 5DB6D4EA
 P 4350 4300
 F 0 "C4" H 4375 4400 39  0000 L CNN
 F 1 "100n" V 4200 4250 50  0000 L CNN
-F 2 "Capacitor_THT:C_Axial_L3.8mm_D2.6mm_P7.50mm_Horizontal" H 4388 4150 50  0001 C CNN
+F 2 "Capacitor_THT:C_Disc_D4.3mm_W1.9mm_P5.00mm" H 4388 4150 50  0001 C CNN
 F 3 "" H 4350 4300 50  0001 C CNN
 	1    4350 4300
 	0    1    1    0   
@@ -272,7 +272,7 @@ U 1 1 5DB717D4
 P 8375 2525
 F 0 "U5" H 8375 3375 60  0000 C CNN
 F 1 "LT1251" H 8375 2475 60  0000 C CNN
-F 2 "Package_DIP:DIP-14_W7.62mm_Socket" H 8275 2475 60  0001 C CNN
+F 2 "Package_DIP:DIP-14_W7.62mm_Socket_LongPads" H 8275 2475 60  0001 C CNN
 F 3 "" H 8275 2475 60  0001 C CNN
 	1    8375 2525
 	1    0    0    -1  
@@ -294,7 +294,7 @@ U 1 1 5DB71E30
 P 7575 1400
 F 0 "R13" V 7655 1400 50  0000 C CNN
 F 1 "75" V 7575 1400 50  0000 C CNN
-F 2 "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal" V 7505 1400 50  0001 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal" V 7505 1400 50  0001 C CNN
 F 3 "" H 7575 1400 50  0001 C CNN
 	1    7575 1400
 	1    0    0    -1  
@@ -307,7 +307,7 @@ U 1 1 5DB72713
 P 7725 1925
 F 0 "R15" V 7805 1925 50  0000 C CNN
 F 1 "1.5k" V 7725 1925 50  0000 C CNN
-F 2 "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal" V 7655 1925 50  0001 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal" V 7655 1925 50  0001 C CNN
 F 3 "" H 7725 1925 50  0001 C CNN
 	1    7725 1925
 	0    1    1    0   
@@ -318,7 +318,7 @@ U 1 1 5DB72840
 P 9175 1925
 F 0 "R17" V 9255 1925 50  0000 C CNN
 F 1 "1.5k" V 9175 1925 50  0000 C CNN
-F 2 "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal" V 9105 1925 50  0001 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal" V 9105 1925 50  0001 C CNN
 F 3 "" H 9175 1925 50  0001 C CNN
 	1    9175 1925
 	0    1    1    0   
@@ -369,7 +369,7 @@ U 1 1 5DB7312B
 P 9325 2125
 F 0 "R18" V 9405 2125 39  0000 C CNN
 F 1 "10k" V 9325 2125 50  0000 C CNN
-F 2 "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal" V 9255 2125 60  0001 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal" V 9255 2125 60  0001 C CNN
 F 3 "" H 9325 2125 50  0001 C CNN
 	1    9325 2125
 	0    1    1    0   
@@ -380,7 +380,7 @@ U 1 1 5DB73D34
 P 9675 2025
 F 0 "R19" V 9755 2025 39  0000 C CNN
 F 1 "47k" V 9675 2025 50  0000 C CNN
-F 2 "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal" V 9605 2025 60  0001 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal" V 9605 2025 60  0001 C CNN
 F 3 "" H 9675 2025 50  0001 C CNN
 	1    9675 2025
 	0    1    1    0   
@@ -419,7 +419,7 @@ U 1 1 5DB75A90
 P 10250 2525
 F 0 "R20" V 10330 2525 50  0000 C CNN
 F 1 "75" V 10250 2525 50  0000 C CNN
-F 2 "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal" V 10180 2525 50  0001 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal" V 10180 2525 50  0001 C CNN
 F 3 "" H 10250 2525 50  0001 C CNN
 	1    10250 2525
 	0    -1   1    0   
@@ -438,7 +438,7 @@ Text Notes 925  850  0    79   ~ 0
 Dual Video Amplifier
 Text Notes 975  3725 0    79   ~ 0
 Video Sync Seperator
-Text Notes 6200 850  0    79   ~ 0
+Text Notes 5750 675  0    79   ~ 0
 CV Video Fader
 Text Notes 1050 6000 0    79   ~ 0
 Power Supply
@@ -492,7 +492,7 @@ U 1 1 5DB7F722
 P 7375 1825
 F 0 "R12" V 7455 1825 50  0000 C CNN
 F 1 "470k" V 7375 1825 50  0000 C CNN
-F 2 "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal" V 7305 1825 50  0001 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal" V 7305 1825 50  0001 C CNN
 F 3 "" H 7375 1825 50  0001 C CNN
 	1    7375 1825
 	0    1    1    0   
@@ -509,7 +509,7 @@ U 1 1 5DB80EB4
 P 7275 2025
 F 0 "R11" V 7355 2025 50  0000 C CNN
 F 1 "220" V 7275 2025 50  0000 C CNN
-F 2 "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal" V 7205 2025 50  0001 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal" V 7205 2025 50  0001 C CNN
 F 3 "" H 7275 2025 50  0001 C CNN
 	1    7275 2025
 	0    1    1    0   
@@ -520,15 +520,13 @@ Wire Wire Line
 	9100 2025 9525 2025
 Wire Wire Line
 	7075 2225 7875 2225
-Wire Wire Line
-	1550 1475 1650 1475
 $Comp
 L Sync-Ope-proto-rescue:R-Sync-Ope-proto-Sync-Ope-proto-rescue R1
 U 1 1 5DB6BD67
 P 1650 1625
 F 0 "R1" V 1730 1625 50  0000 C CNN
 F 1 "75" V 1650 1625 50  0000 C CNN
-F 2 "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal" V 1580 1625 50  0001 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal" V 1580 1625 50  0001 C CNN
 F 3 "" H 1650 1625 50  0001 C CNN
 	1    1650 1625
 	1    0    0    -1  
@@ -541,7 +539,7 @@ U 1 1 5DB9B36B
 P 9000 2225
 F 0 "C5" H 9025 2325 50  0000 L CNN
 F 1 "100n" V 8850 2150 50  0000 L CNN
-F 2 "Capacitor_THT:C_Axial_L3.8mm_D2.6mm_P7.50mm_Horizontal" H 9038 2075 50  0001 C CNN
+F 2 "Capacitor_THT:C_Disc_D4.3mm_W1.9mm_P5.00mm" H 9038 2075 50  0001 C CNN
 F 3 "" H 9000 2225 50  0001 C CNN
 	1    9000 2225
 	1    0    0    -1  
@@ -573,7 +571,6 @@ Wire Wire Line
 Connection ~ 1400 1775
 Wire Wire Line
 	1400 1775 1400 1925
-Connection ~ 1650 1475
 Wire Wire Line
 	1650 1475 1775 1475
 Wire Wire Line
@@ -586,7 +583,7 @@ U 1 1 5DC46A82
 P 1900 1825
 F 0 "R2" H 1970 1871 50  0000 L CNN
 F 1 "1.5k" V 1900 1725 50  0000 L CNN
-F 2 "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal" V 1830 1825 50  0001 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal" V 1830 1825 50  0001 C CNN
 F 3 "~" H 1900 1825 50  0001 C CNN
 	1    1900 1825
 	1    0    0    -1  
@@ -611,7 +608,7 @@ U 1 1 5DC4F328
 P 3700 1575
 F 0 "C2" V 3448 1575 50  0000 C CNN
 F 1 "100n" V 3539 1575 50  0000 C CNN
-F 2 "Capacitor_THT:C_Axial_L3.8mm_D2.6mm_P7.50mm_Horizontal" H 3738 1425 50  0001 C CNN
+F 2 "Capacitor_THT:C_Disc_D4.3mm_W1.9mm_P5.00mm" H 3738 1425 50  0001 C CNN
 F 3 "~" H 3700 1575 50  0001 C CNN
 	1    3700 1575
 	0    1    1    0   
@@ -622,7 +619,7 @@ U 1 1 5DC4FB90
 P 3300 1575
 F 0 "R7" V 3093 1575 50  0000 C CNN
 F 1 "100" V 3184 1575 50  0000 C CNN
-F 2 "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal" V 3230 1575 50  0001 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal" V 3230 1575 50  0001 C CNN
 F 3 "~" H 3300 1575 50  0001 C CNN
 	1    3300 1575
 	0    1    1    0   
@@ -653,7 +650,7 @@ U 1 1 5DCA45FA
 P 4400 1875
 F 0 "R10" H 4470 1921 50  0000 L CNN
 F 1 "100k" H 4470 1830 50  0000 L CNN
-F 2 "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal" V 4330 1875 50  0001 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal" V 4330 1875 50  0001 C CNN
 F 3 "~" H 4400 1875 50  0001 C CNN
 	1    4400 1875
 	1    0    0    -1  
@@ -680,7 +677,7 @@ U 1 1 5DCABBCD
 P 2025 1475
 F 0 "C1" V 1773 1475 50  0000 C CNN
 F 1 "100n" V 1864 1475 50  0000 C CNN
-F 2 "Capacitor_THT:C_Axial_L3.8mm_D2.6mm_P7.50mm_Horizontal" H 2063 1325 50  0001 C CNN
+F 2 "Capacitor_THT:C_Disc_D4.3mm_W1.9mm_P5.00mm" H 2063 1325 50  0001 C CNN
 F 3 "~" H 2025 1475 50  0001 C CNN
 	1    2025 1475
 	0    1    1    0   
@@ -725,7 +722,7 @@ L Device:D D2
 U 1 1 5DD65F8F
 P 7150 5300
 F 0 "D2" H 7150 5516 50  0000 C CNN
-F 1 "D" H 7150 5425 50  0000 C CNN
+F 1 "1n4148" H 7150 5425 50  0000 C CNN
 F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 7150 5300 50  0001 C CNN
 F 3 "~" H 7150 5300 50  0001 C CNN
 	1    7150 5300
@@ -736,7 +733,7 @@ L Device:D D3
 U 1 1 5DD693BE
 P 7150 5600
 F 0 "D3" H 7150 5816 50  0000 C CNN
-F 1 "D" H 7150 5725 50  0000 C CNN
+F 1 "1n4148" H 7150 5725 50  0000 C CNN
 F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 7150 5600 50  0001 C CNN
 F 3 "~" H 7150 5600 50  0001 C CNN
 	1    7150 5600
@@ -781,7 +778,7 @@ U 1 1 5DE9533B
 P 7675 4775
 F 0 "R14" H 7745 4821 50  0000 L CNN
 F 1 "10k" H 7745 4730 50  0000 L CNN
-F 2 "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal" V 7605 4775 50  0001 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal" V 7605 4775 50  0001 C CNN
 F 3 "~" H 7675 4775 50  0001 C CNN
 	1    7675 4775
 	1    0    0    -1  
@@ -838,7 +835,7 @@ U 1 1 5DDCD677
 P 8700 4850
 F 0 "U6" H 8875 5825 50  0000 C CNN
 F 1 "CD4053BE" H 9025 5725 50  0000 C CNN
-F 2 "Package_DIP:DIP-16_W7.62mm_Socket" H 8700 4850 50  0001 C CNN
+F 2 "Package_DIP:DIP-16_W7.62mm_LongPads" H 8700 4850 50  0001 C CNN
 F 3 "http://www.intersil.com/content/dam/Intersil/documents/cd40/cd4051bms-52bms-53bms.pdf" H 8700 4850 50  0001 C CNN
 	1    8700 4850
 	1    0    0    -1  
@@ -860,7 +857,7 @@ U 1 1 5DD69BDD
 P 8100 3700
 F 0 "R16" H 8170 3746 50  0000 L CNN
 F 1 "39k" H 8170 3655 50  0000 L CNN
-F 2 "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal" V 8030 3700 50  0001 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal" V 8030 3700 50  0001 C CNN
 F 3 "~" H 8100 3700 50  0001 C CNN
 	1    8100 3700
 	1    0    0    -1  
@@ -914,7 +911,7 @@ U 1 1 5E0F4BED
 P 2550 4925
 F 0 "R5" V 2630 4925 50  0000 C CNN
 F 1 "1k" V 2550 4925 50  0000 C CNN
-F 2 "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal" V 2480 4925 50  0001 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal" V 2480 4925 50  0001 C CNN
 F 3 "" H 2550 4925 50  0001 C CNN
 	1    2550 4925
 	1    0    0    -1  
@@ -949,8 +946,6 @@ Wire Wire Line
 Wire Wire Line
 	10025 2525 10100 2525
 Wire Wire Line
-	10450 2525 10400 2525
-Wire Wire Line
 	9325 1925 10025 1925
 Wire Wire Line
 	8875 2525 10025 2525
@@ -970,7 +965,7 @@ U 1 1 5DDE1EB2
 P 3550 7000
 F 0 "U3" H 3550 7242 50  0000 C CNN
 F 1 "L7805" H 3550 7151 50  0000 C CNN
-F 2 "Package_TO_SOT_THT:TO-220-3_Horizontal_TabUp" H 3575 6850 50  0001 L CIN
+F 2 "Package_TO_SOT_THT:TO-220-3_Vertical" H 3575 6850 50  0001 L CIN
 F 3 "http://www.st.com/content/ccc/resource/technical/document/datasheet/41/4f/b3/b0/12/d4/47/88/CD00000444.pdf/files/CD00000444.pdf/jcr:content/translations/en.CD00000444.pdf" H 3550 6950 50  0001 C CNN
 	1    3550 7000
 	1    0    0    -1  
@@ -981,7 +976,7 @@ U 1 1 5DDE39E9
 P 5325 7050
 F 0 "U4" H 5325 6901 50  0000 C CNN
 F 1 "L7905" H 5325 6810 50  0000 C CNN
-F 2 "Package_TO_SOT_THT:TO-220-3_Horizontal_TabUp" H 5325 6850 50  0001 C CIN
+F 2 "Package_TO_SOT_THT:TO-220-3_Vertical" H 5325 6850 50  0001 C CIN
 F 3 "http://www.st.com/content/ccc/resource/technical/document/datasheet/c9/16/86/41/c7/2b/45/f2/CD00000450.pdf/files/CD00000450.pdf/jcr:content/translations/en.CD00000450.pdf" H 5325 7050 50  0001 C CNN
 	1    5325 7050
 	1    0    0    -1  
@@ -1086,7 +1081,7 @@ U 1 1 5DF6C076
 P 3125 7250
 F 0 "C6" H 3240 7296 50  0000 L CNN
 F 1 "330n" H 3240 7205 50  0000 L CNN
-F 2 "Capacitor_THT:C_Axial_L3.8mm_D2.6mm_P7.50mm_Horizontal" H 3163 7100 50  0001 C CNN
+F 2 "Capacitor_THT:C_Disc_D4.3mm_W1.9mm_P5.00mm" H 3163 7100 50  0001 C CNN
 F 3 "~" H 3125 7250 50  0001 C CNN
 	1    3125 7250
 	1    0    0    -1  
@@ -1107,7 +1102,7 @@ U 1 1 5DF7DAA1
 P 4125 7250
 F 0 "C7" H 4240 7296 50  0000 L CNN
 F 1 "100n" H 4240 7205 50  0000 L CNN
-F 2 "Capacitor_THT:C_Axial_L3.8mm_D2.6mm_P7.50mm_Horizontal" H 4163 7100 50  0001 C CNN
+F 2 "Capacitor_THT:C_Disc_D4.3mm_W1.9mm_P5.00mm" H 4163 7100 50  0001 C CNN
 F 3 "~" H 4125 7250 50  0001 C CNN
 	1    4125 7250
 	1    0    0    -1  
@@ -1125,7 +1120,7 @@ U 1 1 5DFAA0C5
 P 3875 7250
 F 0 "C10" H 3950 7350 50  0000 L CNN
 F 1 "100u" H 3900 7150 50  0000 L CNN
-F 2 "Capacitor_THT:CP_Radial_D5.0mm_P2.50mm" H 3913 7100 50  0001 C CNN
+F 2 "Capacitor_THT:CP_Radial_D7.5mm_P2.50mm" H 3913 7100 50  0001 C CNN
 F 3 "~" H 3875 7250 50  0001 C CNN
 	1    3875 7250
 	1    0    0    -1  
@@ -1154,7 +1149,7 @@ U 1 1 5DFCA05D
 P 4850 6900
 F 0 "C8" H 4965 6946 50  0000 L CNN
 F 1 "330n" H 4965 6855 50  0000 L CNN
-F 2 "Capacitor_THT:C_Axial_L3.8mm_D2.6mm_P7.50mm_Horizontal" H 4888 6750 50  0001 C CNN
+F 2 "Capacitor_THT:C_Disc_D4.3mm_W1.9mm_P5.00mm" H 4888 6750 50  0001 C CNN
 F 3 "~" H 4850 6900 50  0001 C CNN
 	1    4850 6900
 	1    0    0    -1  
@@ -1170,7 +1165,7 @@ U 1 1 5DFFBFF2
 P 5675 6900
 F 0 "C11" H 5750 7000 50  0000 L CNN
 F 1 "100u" H 5700 6800 50  0000 L CNN
-F 2 "Capacitor_THT:CP_Radial_D5.0mm_P2.50mm" H 5713 6750 50  0001 C CNN
+F 2 "Capacitor_THT:CP_Radial_D7.5mm_P2.50mm" H 5713 6750 50  0001 C CNN
 F 3 "~" H 5675 6900 50  0001 C CNN
 	1    5675 6900
 	1    0    0    -1  
@@ -1181,7 +1176,7 @@ U 1 1 5DFFD1C9
 P 5975 6900
 F 0 "C9" H 6090 6946 50  0000 L CNN
 F 1 "100n" H 6090 6855 50  0000 L CNN
-F 2 "Capacitor_THT:C_Axial_L3.8mm_D2.6mm_P7.50mm_Horizontal" H 6013 6750 50  0001 C CNN
+F 2 "Capacitor_THT:C_Disc_D4.3mm_W1.9mm_P5.00mm" H 6013 6750 50  0001 C CNN
 F 3 "~" H 5975 6900 50  0001 C CNN
 	1    5975 6900
 	1    0    0    -1  
@@ -1218,23 +1213,12 @@ Wire Wire Line
 Wire Wire Line
 	5325 6500 5325 6750
 $Comp
-L Sync-Ope-proto-rescue:Conn_Rca-Sync-Ope-proto-Sync-Ope-proto-rescue J1
-U 1 1 5E12D073
-P 1400 1475
-F 0 "J1" H 1353 1713 50  0000 C CNN
-F 1 "VIDEO_INPUT" H 1353 1622 50  0000 C CNN
-F 2 "project_parts:RCJ-024" H 1400 1475 50  0001 C CNN
-F 3 "" H 1400 1475 50  0001 C CNN
-	1    1400 1475
-	-1   0    0    -1  
-$EndComp
-$Comp
-L Sync-Ope-proto-rescue:Conn_Rca-Sync-Ope-proto-Sync-Ope-proto-rescue J6
+L Connector:Conn_Coaxial J6
 U 1 1 5E165212
 P 10600 2525
 F 0 "J6" H 10575 2650 50  0000 L CNN
-F 1 "VIDEO_OUTPUT" H 10475 2725 50  0000 L CNN
-F 2 "project_parts:RCJ-024" H 10600 2525 50  0001 C CNN
+F 1 "rca" H 10475 2725 50  0000 L CNN
+F 2 "lib_fp:RCJ-024" H 10600 2525 50  0001 C CNN
 F 3 "" H 10600 2525 50  0001 C CNN
 	1    10600 2525
 	1    0    0    -1  
@@ -1272,8 +1256,6 @@ Connection ~ 3975 2825
 Wire Wire Line
 	3975 2825 3975 2925
 Wire Wire Line
-	7575 1250 7125 1250
-Wire Wire Line
 	7125 1150 7250 1150
 Wire Wire Line
 	7250 1150 7250 1350
@@ -1285,7 +1267,7 @@ L Connector:AudioJack2_SwitchT J4
 U 1 1 5E2CEDED
 P 6925 1250
 F 0 "J4" H 6957 1575 50  0000 C CNN
-F 1 "VIDEO_RETURN" H 6957 1484 50  0000 C CNN
+F 1 "mono_jack" H 6957 1484 50  0000 C CNN
 F 2 "Connector_Audio:Jack_3.5mm_QingPu_WQP-PJ398SM_Vertical_CircularHoles" H 6925 1250 50  0001 C CNN
 F 3 "~" H 6925 1250 50  0001 C CNN
 	1    6925 1250
@@ -1296,7 +1278,7 @@ L Connector:AudioJack2_SwitchT J5
 U 1 1 5E2E813F
 P 7650 4100
 F 0 "J5" H 7682 4425 50  0000 C CNN
-F 1 "CV_IN" H 7682 4334 50  0000 C CNN
+F 1 "mono_jack" H 7682 4334 50  0000 C CNN
 F 2 "Connector_Audio:Jack_3.5mm_QingPu_WQP-PJ398SM_Vertical_CircularHoles" H 7650 4100 50  0001 C CNN
 F 3 "~" H 7650 4100 50  0001 C CNN
 	1    7650 4100
@@ -1307,14 +1289,14 @@ L Connector:AudioJack2_SwitchT J3
 U 1 1 5E2FFC69
 P 4300 2725
 F 0 "J3" H 4300 3050 50  0000 R CNN
-F 1 "VIDEO_SEND" H 4475 2950 50  0000 R CNN
+F 1 "mono_jack" H 4475 2950 50  0000 R CNN
 F 2 "Connector_Audio:Jack_3.5mm_QingPu_WQP-PJ398SM_Vertical_CircularHoles" H 4300 2725 50  0001 C CNN
 F 3 "~" H 4300 2725 50  0001 C CNN
 	1    4300 2725
 	-1   0    0    -1  
 $EndComp
 $Comp
-L Connector:Barrel_Jack J7
+L Connector:Barrel_Jack_Switch J7
 U 1 1 5E177836
 P 3225 5900
 F 0 "J7" H 3282 6225 50  0000 C CNN
@@ -1357,11 +1339,6 @@ F 3 "" H 1050 6750 50  0001 C CNN
 	1    1050 6750
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	1850 7375 1850 7350
-Wire Wire Line
-	1850 7250 1850 7350
-Connection ~ 1850 7350
 $Comp
 L power:-12V #PWR06
 U 1 1 5DE2C18E
@@ -1419,7 +1396,7 @@ U 1 1 5E22C378
 P 3825 5800
 F 0 "D4" H 3825 5584 50  0000 C CNN
 F 1 "1n4007" H 3825 5675 50  0000 C CNN
-F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 3825 5800 50  0001 C CNN
+F 2 "Diode_THT:D_DO-35_SOD27_P10.16mm_Horizontal" H 3825 5800 50  0001 C CNN
 F 3 "~" H 3825 5800 50  0001 C CNN
 	1    3825 5800
 	-1   0    0    1   
@@ -1430,7 +1407,7 @@ U 1 1 5E241A55
 P 3825 6200
 F 0 "D5" H 3825 6416 50  0000 C CNN
 F 1 "1n4007" H 3825 6325 50  0000 C CNN
-F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 3825 6200 50  0001 C CNN
+F 2 "Diode_THT:D_DO-35_SOD27_P10.16mm_Horizontal" H 3825 6200 50  0001 C CNN
 F 3 "~" H 3825 6200 50  0001 C CNN
 	1    3825 6200
 	1    0    0    -1  
@@ -1458,7 +1435,7 @@ U 1 1 5E27F84F
 P 4175 5900
 F 0 "C12" H 4263 5946 50  0000 L CNN
 F 1 "200u" H 4263 5855 50  0000 L CNN
-F 2 "Capacitor_THT:CP_Radial_D5.0mm_P2.50mm" H 4175 5900 50  0001 C CNN
+F 2 "Capacitor_THT:CP_Radial_D7.5mm_P2.50mm" H 4175 5900 50  0001 C CNN
 F 3 "~" H 4175 5900 50  0001 C CNN
 	1    4175 5900
 	1    0    0    -1  
@@ -1472,7 +1449,7 @@ U 1 1 5E280AD8
 P 4175 6100
 F 0 "C13" H 4263 6146 50  0000 L CNN
 F 1 "200u" H 4263 6055 50  0000 L CNN
-F 2 "Capacitor_THT:CP_Radial_D5.0mm_P2.50mm" H 4175 6100 50  0001 C CNN
+F 2 "Capacitor_THT:CP_Radial_D7.5mm_P2.50mm" H 4175 6100 50  0001 C CNN
 F 3 "~" H 4175 6100 50  0001 C CNN
 	1    4175 6100
 	1    0    0    -1  
@@ -1581,7 +1558,7 @@ U 1 1 5E3CF7B1
 P 8000 4525
 F 0 "R3" H 7850 4575 50  0000 L CNN
 F 1 "220" H 7800 4475 50  0000 L CNN
-F 2 "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal" V 7930 4525 50  0001 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal" V 7930 4525 50  0001 C CNN
 F 3 "~" H 8000 4525 50  0001 C CNN
 	1    8000 4525
 	1    0    0    -1  
@@ -1642,4 +1619,77 @@ Wire Wire Line
 Connection ~ 7250 1725
 Wire Wire Line
 	7250 1725 7250 1825
+$Comp
+L Connector:Conn_Coaxial J10
+U 1 1 5EE5D0D4
+P 4300 3125
+F 0 "J10" H 4400 3100 50  0000 L CNN
+F 1 "rca" H 4400 3009 50  0000 L CNN
+F 2 "lib_fp:RCJ-024" H 4300 3125 50  0001 C CNN
+F 3 "" H 4300 3125 50  0001 C CNN
+	1    4300 3125
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3875 2725 3875 3125
+Connection ~ 3875 2725
+$Comp
+L Sync-Ope-proto-rescue:GND-Sync-Ope-proto-Sync-Ope-proto-rescue #PWR037
+U 1 1 5EE6D160
+P 4300 3325
+F 0 "#PWR037" H 4300 3075 50  0001 C CNN
+F 1 "GND" H 4300 3175 50  0000 C CNN
+F 2 "" H 4300 3325 50  0001 C CNN
+F 3 "" H 4300 3325 50  0001 C CNN
+	1    4300 3325
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:Conn_Coaxial J9
+U 1 1 5EE6DFB3
+P 7500 775
+F 0 "J9" H 7600 750 50  0000 L CNN
+F 1 "rca" H 7600 659 50  0000 L CNN
+F 2 "lib_fp:RCJ-024" H 7500 775 50  0001 C CNN
+F 3 "" H 7500 775 50  0001 C CNN
+	1    7500 775 
+	1    0    0    -1  
+$EndComp
+$Comp
+L Sync-Ope-proto-rescue:GND-Sync-Ope-proto-Sync-Ope-proto-rescue #PWR036
+U 1 1 5EE70DDF
+P 7500 975
+F 0 "#PWR036" H 7500 725 50  0001 C CNN
+F 1 "GND" H 7500 825 50  0000 C CNN
+F 2 "" H 7500 975 50  0001 C CNN
+F 3 "" H 7500 975 50  0001 C CNN
+	1    7500 975 
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1850 7350 1850 7250
+$Comp
+L Connector:Conn_Coaxial J1
+U 1 1 5E12D073
+P 1400 1475
+F 0 "J1" H 1353 1713 50  0000 C CNN
+F 1 "rca" H 1353 1622 50  0000 C CNN
+F 2 "lib_fp:RCJ-024" H 1400 1475 50  0001 C CNN
+F 3 "" H 1400 1475 50  0001 C CNN
+	1    1400 1475
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	7125 1250 7300 1250
+Wire Wire Line
+	1600 1475 1650 1475
+Connection ~ 1650 1475
+Wire Wire Line
+	4100 3125 3875 3125
+Wire Wire Line
+	7300 775  7300 1250
+Connection ~ 7300 1250
+Wire Wire Line
+	7300 1250 7575 1250
+NoConn ~ 3525 5900
 $EndSCHEMATC

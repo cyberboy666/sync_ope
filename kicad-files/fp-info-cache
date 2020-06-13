@@ -1,4 +1,4 @@
-16365842630606573
+16376923287072036
 Battery
 BatteryHolder_Bulgin_BX0036_1xC
 Bulgin Battery Holder, BX0036, Battery Type C (https://www.bulgin.com/products/pub/media/bulgin/data/Battery_holders.pdf)
@@ -6229,6 +6229,13 @@ THT Mini XLR 5Pin right angle
 0
 5
 5
+Connector_Audio
+Tayda_3.5mm_stereo_TRS_jack_A-853
+
+
+0
+5
+5
 Connector_BarrelJack
 BarrelJack_CUI_PJ-036AH-SMT_Horizontal
 Surface-mount DC Barrel Jack, http://www.cui.com/product/resource/pj-036ah-smt.pdf
@@ -6600,6 +6607,20 @@ DIN 41512 IEC 60603 B
 0
 64
 64
+Connector_DIN
+SDS-50J
+SDS-50J, standard DIN connector, 5 pins, midi
+SDS-50J DIN 5-pins connector midi
+0
+7
+5
+Connector_DIN
+Tayda5pinMidi-A1010
+SDS-50J, standard DIN connector, 5 pins, midi
+SDS-50J DIN 5-pins connector midi
+0
+7
+5
 Connector_Dsub
 DSUB-9_Female_EdgeMount_P2.77mm
 9-pin D-Sub connector, solder-cups edge-mounted, female, x-pin-pitch 2.77mm, distance of mounting holes 25mm, see https://disti-assets.s3.amazonaws.com/tonar/files/datasheets/16730.pdf
@@ -49945,6 +49966,13 @@ Pololu Breakout
 16
 16
 Module
+ProMicro
+Pro Micro footprint
+promicro ProMicro
+0
+24
+24
+Module
 Raspberry_Pi_Zero_Socketed_THT_FaceDown_MountingHoles
 Raspberry Pi Zero using through hole straight pin socket, 2x20, 2.54mm pitch, https://www.raspberrypi.org/documentation/hardware/raspberrypi/mechanical/rpi_MECH_Zero_1p2.pdf
 raspberry pi zero through hole
@@ -49972,6 +50000,13 @@ ESP8266 WiFi microcontroller
 0
 16
 16
+Module
+usbHostMidi
+Pro Micro footprint
+promicro ProMicro
+0
+25
+25
 MountingEquipment
 DINRailAdapter_3xM3_PhoenixContact_1201578
 https://www.phoenixcontact.com/online/portal/us?uri=pxc-oc-itemdetail:pid=1201578&library=usen&tab=1
@@ -73169,4 +73204,18 @@ Varistor, diameter 21.5mm, width 11.4mm, pitch 10mm
 varistor SIOV
 0
 2
+2
+lib_fp
+RCJ-024
+<b>DC POWER JACK</b><p>Source: DCJ0202.pdf
+
+0
+3
+2
+project_parts
+RCJ-024
+<b>DC POWER JACK</b><p>Source: DCJ0202.pdf
+
+0
+3
 2
