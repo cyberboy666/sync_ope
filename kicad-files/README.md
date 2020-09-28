@@ -22,7 +22,7 @@ Qty | Reference(s) | Value | tayda | mouser
 4 | J1, J6, J9, J10 | rca | - | [RCJ-024](https://www.mouser.com/Search/Refine?Keyword=RCJ-024) 
 1 | J2 | euro_power | [A-2956](https://www.taydaelectronics.com/catalogsearch/result/?q=A-2956) | [-](https://www.mouser.com/Search/Refine?Keyword=-) 
 3 | J3, J4, J5 | mono_jack | [A-2563](https://www.taydaelectronics.com/catalogsearch/result/?q=A-2563) | [-](https://www.mouser.com/Search/Refine?Keyword=-) 
-1 | J7 | AC_POWER | [A-4118](https://www.taydaelectronics.com/catalogsearch/result/?q=A-4118) | [PRT-12748](https://www.mouser.com/Search/Refine?Keyword=PRT-12748) 
+1 | J7 | AC_POWER | [A-4118](https://www.taydaelectronics.com/catalogsearch/result/?q=A-4118) | [PRT-00119](https://www.mouser.com/Search/Refine?Keyword=PRT-00119) 
 1 | J8 | diy_power_header | - | [-](https://www.mouser.com/Search/Refine?Keyword=-) 
 4 | R1, R8, R13, R20 | 75 | [A-A](https://www.taydaelectronics.com/catalogsearch/result/?q=A-A-2193) | [MF1/4DCT52R75R0F](https://www.mouser.com/Search/Refine?Keyword=MF1/4DCT52R75R0F) 
 2 | R3, R11 | 220 | [A-2246](https://www.taydaelectronics.com/catalogsearch/result/?q=A-2246) | [MF1/4CCT52R2200F](https://www.mouser.com/Search/Refine?Keyword=MF1/4CCT52R2200F) 
