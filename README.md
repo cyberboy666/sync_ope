@@ -17,7 +17,7 @@ STATUT :
 TODO :  
 *Stress tests of limiting diodes at video receive (return) inlet, searching for better components (x3 fast diodes 0.7V reversed instead of the zener 1.8V, lower Vdrop for Schottky diode ?)  
 *tutorial/review videos  
-*PCB design V.0.3 (smaller version - 80x80mm, remove signal send grounding when unplugged)  
+*PCB design V.0.3 (smaller version - 80x80mm, remove "video send" grounded when unplugged)  
 *Eurorack module version, all in line design, 4 to 6 HP  
 
 
