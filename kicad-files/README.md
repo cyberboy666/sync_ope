@@ -76,7 +76,9 @@ need to add more details here in future, but after assembling:
 ## Starting experiments - WARMING!!!
   
 We design this device to be tough with hazardous input/load on the send/receive part but IT IS NOT INDESTRUCTIBLE.  
-Please begin your expériments only with passive circuits, later if you want to make active ones try to never apply above +/-5V to "video receive" inlet, and avoid big load or voltage on "video send". Sync-Ope also work with analog sound effet (overdrive/distrotion/filter) but try to use it only on battery.  
-Never connect anything else than composite video devices to "video IN" and "video OUT".
-CV input mixer J5 is designed to work in video range signals 0-1V, it can handle up to 5V, try to never exceed this and never apply negative voltage (reverse protection in next revision).  
-Have fun, be creative...
+-> Please begin your expériments only with passive circuits, later if you want to make active ones try to never apply above +/-5V to "video receive" inlet, and avoid big load or voltage on "video send".  
+-> Sync-Ope also work with analog sound effet (overdrive/distrotion/filter) but try to use it only on battery.  
+-> Never connect anything else than composite video devices to "video IN" and "video OUT".  
+-> CV input mixer J5 is designed to work in video range signals 0-1V, it can handle up to 5V, try to never exceed this and never apply negative voltage (reverse protection in next revision).  
+-> If signal is lost, it could mean something go wrong in the send/receive loop, immedialtely disconnect your circuit and unplug Sync-Ope power, then retry gently :)  
+Have fun, be creative... and thank you for your interest in this project, feel free to comment and collaborate!
