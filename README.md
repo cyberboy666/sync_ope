@@ -16,6 +16,7 @@ STATUT :
   
 TODO :  
 *Stress tests of limiting diodes at video receive (return) inlet, searching for better components (x3 fast diodes 0.7V reversed instead of the zener 1.8V, lower Vdrop for Schottky diode ?)  
+*better clamping to blanking level design, actual one crush a bit the burst! affecting colors...  
 *Negative voltage protection to CV input mixer J5  
 *tutorial/review videos  
 *PCB design V.0.3 (smaller version - 80x80mm, remove "video send" grounded when unplugged)  
