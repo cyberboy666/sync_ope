@@ -7,16 +7,15 @@ video send/receive connexions act as a send/return loop to input/output your cus
 For more details on construction, please see README file of KiCad folder : https://github.com/gaeljaton/Sync-Ope/tree/master/kicad-files  
 
 ![schematic](../master/schV01.png)  
-schematic last rev.  
-
+schematic last rev (!!! ISSUE ON R2/R4!!! should be x2 gain in stead of unity gain with this weird pulldown)  
 STATUT :   
--Schematic ok  
+-Schematic NEED REV!    
 -general test ok  
--PCB V.0.2 ok  
+-PCB V.0.2 NEED REV!    
   
 TODO :  
 *Stress tests of limiting diodes at video receive (return) inlet, searching for better components (x3 fast diodes 0.7V reversed instead of the zener 1.8V, lower Vdrop for Schottky diode ?)  
-*better clamping to blanking level design, actual one crush a bit the burst! affecting colors...  
+*better clamping to blanking level design, actual one crush a bit the burst! affecting colors... => LOGIC GATE DELAY SIGNAL (based CD4069 hex inverter -tested OK!)   
 *Negative voltage protection to CV input mixer J5  
 *tutorial/review videos  
 *PCB design V.0.3 (smaller version - 80x80mm, remove "video send" grounded when unplugged)  
