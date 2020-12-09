@@ -7,7 +7,8 @@ video send/receive connexions act as a send/return loop to input/output your cus
 For more details on construction, please see README file of KiCad folder : https://github.com/gaeljaton/Sync-Ope/tree/master/kicad-files  
 
 ![schematic](../master/schV02.png)  
-schematic last rev
+schematic last rev  
+  
 STATUT :   
 -Schematic ok 
 -general tests ok  
