@@ -6,11 +6,11 @@ This act as a "video inserter"/ TBK (time base keeper). Basically it split video
 video send/receive connexions act as a send/return loop to input/output your custom effect circuit.  
 For more details on construction, please see README file of KiCad folder : https://github.com/gaeljaton/Sync-Ope/tree/master/kicad-files  
 
-![schematic](../master/schV01.png)  
-schematic last rev (!!! ISSUE ON R2/R4!!! should be x2 gain in stead of unity gain with this weird pulldown)  
+![schematic](../master/schV02.png)  
+schematic last rev
 STATUT :   
--Schematic NEED REV!    
--general test ok  
+-Schematic ok 
+-general tests ok  
 -PCB V.0.2 NEED REV!    
   
 TODO :  
