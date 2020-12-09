@@ -1,4 +1,4 @@
-(kicad_pcb (version 20171130) (host pcbnew "(5.1.4-0-10_14)")
+(kicad_pcb (version 20171130) (host pcbnew 5.1.5+dfsg1-2build2)
 
   (general
     (thickness 1.6)
@@ -68,7 +68,7 @@
     (pad_to_mask_clearance 0.051)
     (solder_mask_min_width 0.25)
     (aux_axis_origin 0 0)
-    (visible_elements FFFDFF7F)
+    (visible_elements FFFDEF7F)
     (pcbplotparams
       (layerselection 0x010fc_ffffffff)
       (usegerberextensions false)
@@ -2543,7 +2543,7 @@
     )
   )
 
-  (module Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal (layer F.Cu) (tedit 5AE5139B) (tstamp 5EE59D4F)
+  (module Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal (layer F.Cu) (tedit 5AE5139B) (tstamp 5FD0084D)
     (at 125.2 90.4)
     (descr "Resistor, Axial_DIN0204 series, Axial, Horizontal, pin pitch=7.62mm, 0.167W, length*diameter=3.6*1.6mm^2, http://cdn-reichelt.de/documents/datenblatt/B400/1_4W%23YAG.pdf")
     (tags "Resistor Axial_DIN0204 series Axial Horizontal pin pitch 7.62mm 0.167W length 3.6mm diameter 1.6mm")
@@ -3783,14 +3783,14 @@
   (segment (start 175 118.52) (end 174.88 118.4) (width 0.25) (layer F.Cu) (net 45))
   (segment (start 174.88 119.26) (end 174.88 118.4) (width 0.25) (layer F.Cu) (net 45))
   (segment (start 178.12 122.5) (end 174.88 119.26) (width 0.25) (layer F.Cu) (net 45))
-  (segment (start 113.524999 136.425001) (end 112.25 137.7) (width 0.25) (layer F.Cu) (net 46))
-  (segment (start 115.3 134.65) (end 113.524999 136.425001) (width 0.25) (layer F.Cu) (net 46))
-  (segment (start 115.3 107.92) (end 115.3 134.65) (width 0.25) (layer F.Cu) (net 46))
-  (segment (start 132.82 90.4) (end 115.3 107.92) (width 0.25) (layer F.Cu) (net 46))
   (segment (start 128.493863 142.4) (end 130 142.4) (width 0.25) (layer F.Cu) (net 46))
   (segment (start 112.25 139.503122) (end 115.146878 142.4) (width 0.25) (layer F.Cu) (net 46))
   (segment (start 115.146878 142.4) (end 128.493863 142.4) (width 0.25) (layer F.Cu) (net 46))
   (segment (start 112.25 137.7) (end 112.25 139.503122) (width 0.25) (layer F.Cu) (net 46))
+  (segment (start 132.82 90.4) (end 115.3 107.92) (width 0.25) (layer F.Cu) (net 46))
+  (segment (start 115.3 107.92) (end 115.3 134.65) (width 0.25) (layer F.Cu) (net 46))
+  (segment (start 115.3 134.65) (end 113.524999 136.425001) (width 0.25) (layer F.Cu) (net 46))
+  (segment (start 113.524999 136.425001) (end 112.25 137.7) (width 0.25) (layer F.Cu) (net 46))
   (segment (start 185.58 60.82) (end 187.75 58.65) (width 0.25) (layer F.Cu) (net 47))
   (segment (start 185.58 70.3) (end 185.58 60.82) (width 0.25) (layer F.Cu) (net 47))
 
