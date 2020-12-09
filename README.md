@@ -1,4 +1,4 @@
-# Sync-Ope  "analog-video-sync-stripper-injector-mixer"
+# Sync-Ope  "real-time-analog-video-send-return-sync-restoring-mixer"
 Sync-Ope is an analog video circuit project for sync signal stripping, hard glitch visible signal, mixing dry/wet signal and sync restoring.
 Work for both with NTSC/PAL video signals.
 
