@@ -2,7 +2,7 @@
 Sync-Ope is an analog video circuit project for sync signal stripping, hard glitch visible signal, mixing dry/wet signal and sync restoring.
 Work for both with NTSC/PAL video signals. Dev discussion thread here : https://scanlines.xyz/t/sync-ope-sync-restoring-circuit-next-revision-ideas  
 
-This act as a "video inserter"/ TBK (time base keeper). Basically it split video signal input between 'pulseSync+burst' and visible lignes signal , then sum its before provide video out. It allow to hard glitch the visible signal (with custom passive and active circuits, mechanical switching, body contact, analog guitar effects...) without touching sync part. It's design around a LM1881 sync separator and a LT1251CN CV mixer which allow a kind of "dry/wet" knob and control voltage from video/audio modules.  
+This act as a "video inserter"/ TBK (time base keeper). Basically it split video signal input between 'pulseSync+burst' and visible lignes signal , then sum its before provide video out. It allow to hard glitch the visible signal (with custom passive and active circuits, mechanical switching, body contact, analog guitar effects...) without touching sync part. It's design around a LM1881 sync separator and a LT1251CN CV mixer which allow a kind of "dry/wet" knob and control voltage from video/audio modules (0 to 1V scale).  
 video send/receive connexions act as a send/return loop to input/output your custom effect circuit.  
 For more details on construction, please see README file of KiCad folder : https://github.com/gaeljaton/Sync-Ope/tree/master/kicad-files  
 
