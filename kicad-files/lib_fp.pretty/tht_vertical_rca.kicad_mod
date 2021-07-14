@@ -1,4 +1,4 @@
-(module RCJ-024 (layer F.Cu) (tedit 5EE4F5DF)
+(module tht_vertical_rca (layer F.Cu) (tedit 5EE4F5DF)
   (descr "<b>DC POWER JACK</b><p>Source: DCJ0202.pdf")
   (fp_text reference CUI_RCJ-024 (at -2.84404 -6.24388) (layer F.SilkS)
     (effects (font (size 1.00143 1.00143) (thickness 0.05)))
