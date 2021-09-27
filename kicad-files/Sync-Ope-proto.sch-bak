@@ -323,7 +323,7 @@ L Sync-Ope-proto-rescue:POT-Sync-Ope-proto-Sync-Ope-proto-rescue RV1
 U 1 1 5DB76F3B
 P 7325 2600
 F 0 "RV1" V 7150 2600 50  0000 C CNN
-F 1 "10k" V 7225 2600 50  0000 C CNN
+F 1 "10k_pot" V 7225 2600 50  0000 C CNN
 F 2 "Potentiometer_THT:Potentiometer_Alps_RK09K_Single_Vertical" H 7325 2600 50  0001 C CNN
 F 3 "" H 7325 2600 50  0001 C CNN
 	1    7325 2600
@@ -1045,7 +1045,7 @@ L Sync-Ope-proto-rescue:D_Schottky-Device D7
 U 1 1 5E4A9CAF
 P 6450 1800
 F 0 "D7" V 6575 1875 50  0000 C CNN
-F 1 "schottky" V 6675 1975 50  0000 C CNN
+F 1 "bat46" V 6675 1975 50  0000 C CNN
 F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 6450 1800 50  0001 C CNN
 F 3 "~" H 6450 1800 50  0001 C CNN
 	1    6450 1800
