@@ -29,9 +29,9 @@ this project is fully _open-source hardware_ - all the files required to build i
 
 depending on whether you are going fully diy or buying an assembled and tested unit, some of the following guides will be relavent to you. the flow would be:
 
+## ordering parts
+
 <details><summary><b>parts sourcing guide (w/ notes on pcb fabracation )</b> - start here if you are building fully from scatch or have purchased a pcb</summary>
-  
-# ordering parts
 
 i try to source all the parts i can from either:
 - [tayda](https://www.taydaelectronics.com/) ; cheaper for common parts like resistors etc, also good for mechanical parts like switches and buttons
@@ -64,12 +64,12 @@ you can support this project by buying individual pcbs from the [shop](https://u
 - it may be best to combine orders with other pcbs you want to have fab'd since the shipping can cost more than the items - also orginising group buys is a good way to distribute the extra pcbs /costs 
   
 i often use jlcpcb because they are reliable, cheap and give you an option of colours. remember though that the cheapest Chinese fab houses are not always the most ethical or environmently friendly - if you can afford it consider supporting local companies. 
+  
+</details>
 
-  </details>
+## assembly guide
   
 <details><summary><b>assembly guide</b> - start here if you have purchased a diy kit</summary>
-  
-# assembly guide
 
 ## interactive BOM for build guiding
 
@@ -98,10 +98,11 @@ follow this link to view the [interactive BOM](https://htmlpreview.github.io/?ht
 
   
 </details>
+
+## operating guide
   
 <details><summary><b>operating guide</b> - start here if you have purchased an assembled unit</summary>
   
-# operating guide
   
 [coming soon]
   
