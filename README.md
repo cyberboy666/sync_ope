@@ -4,11 +4,18 @@
 
 ![image](https://user-images.githubusercontent.com/12017938/151889912-245b7f5d-ce1d-412e-b9c4-7c9430327c59.png)
 
-
 - this circuit is distributed by __UNDERSCORES__ - _an open video hardware label_ : it is available to purchase - as a pcb, kit or assembled unit - at [underscores.shop](https://underscores.shop/sync_ope/)
 - the schematic for the circuit can be found [here](/hardware/schematic.pdf)
 - the pcb gerber files for the lastest version can be found [here](/hardware/sync_ope_latest.zip)
 - consider [donating](https://liberapay.com/underscores/) to the underscores project to help us continue creating for the commons
+
+## description
+
+_sync_ope_ is a companion circuit for analog glitch & circuit bent video instruments. it preserves the sync pulses from the original signal and allows for smooth mixing between clean (dry) and distorted (wet) video. preserving the sync pulses means the distorted video is less likely to drop out (blue screen) when sent to analog video decoders such as in projectors, capture cards and digital tvs
+
+- __knob__ for physical control over dry/wet external effect
+- __cv jack (0-1v)__ for sequenced control over dry/wet external effect
+- external video send & return over rca or 3.5mm jacks
 
 ## demo video
 
@@ -17,10 +24,6 @@
 ## gallery
 
 [coming soon]
-
-
-# description
-
 
 
 # documentation
