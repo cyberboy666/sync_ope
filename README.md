@@ -106,6 +106,8 @@ follow this link to view the [interactive BOM](https://htmlpreview.github.io/?ht
   
 <details><summary><b>operating guide</b> - start here if you have purchased an assembled unit</summary>
   
+![image](https://user-images.githubusercontent.com/12017938/152468139-b49d1d13-512f-4a97-aa2d-0f5f054878d0.png)
+
   
 [coming soon]
   
