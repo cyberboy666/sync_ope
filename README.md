@@ -76,7 +76,7 @@ i often use jlcpcb because they are reliable, cheap and give you an option of co
 
 ## interactive BOM for build guiding
 
-follow this link to view the [interactive BOM](https://htmlpreview.github.io/?https://github.com/cyberboy666/sync_ope/blob/main/hardware/bom/ibom.html)
+follow this link to view the [interactive BOM](https://htmlpreview.github.io/?https://github.com/cyberboy666/sync_ope/blob/master/hardware/bom/ibom.html)
 
 ## general solder advice
 
@@ -88,7 +88,7 @@ follow this link to view the [interactive BOM](https://htmlpreview.github.io/?ht
 
 - in general while assembling i start placing resistors and capacitors first. placing 5 - 10 components at a time and then flipping the board to solder them and trim the legs etc.
 - next i would do diodes, transistors and ic's - taking care that these are placed in the right direction (using a ic socket can be useful)
-- finally i place the interface parts - rca jacks, power jack, pots and switches - make sure these have lots of solder on for structural stablity
+- finally i place the interface parts - rca jacks, power jack, pots and switches - make sure these have lots of solder on for structural stability
 
 ## slightly more specific assembly advice
   
@@ -96,7 +96,8 @@ follow this link to view the [interactive BOM](https://htmlpreview.github.io/?ht
 
 ## smd or dip ic option
   
-[coming soon]
+for some of the rarer ic's both smd and dip footprints are on the board - if you are assembling yourself you can choose which of these to source (dont place both!)
+ - for the smd parts i would place and solder these first before doing any of the throughhole parts - please make sure these parts are placed facing __downwards__ as indicated on the silkscreen. you can test the continuity of your solder joints with a multimeter on the pin + one on the corresponding dip pad
   
 
   
@@ -109,11 +110,24 @@ follow this link to view the [interactive BOM](https://htmlpreview.github.io/?ht
 ![image](https://user-images.githubusercontent.com/12017938/152468139-b49d1d13-512f-4a97-aa2d-0f5f054878d0.png)
 
   
-[coming soon]
+- power the unit via the barrel jack with a 9-12v AC-AC adapter only (regular DC ones wont work here) - alternatively you can power it with +-12V from the eurorack header or +-5v with the side power pins
+- plug a composite video source (eg output from a camcorder) into the top left VIDEO_IN jack -> the middle led should light up when a video source input is detected
+- plug a composite video display (eg an old tv or easycap capture card) into the top right VIDEO_OUT jack 
+- now  with mix knob rotated fully anti-clockwise your source video should be passing through to the display
+- plug one of the VIDEO_SEND jacks into the _input_ of your external processing device
+- plug one of the VIDEO_RETURN jacks into the _output_ of your external processing device
+- now with the mix knob rotated fully clockwise your source video should pass through the external effect device - but with stable sync pulses !
+- if you have the gear for it you can sequence this mix knob using the cv jack above it - only the range 0-1v will respond - dont send it negative voltage.
   
 ## trim pot calibration for pal/ntsc
+  
+to calibrate the blanking intervals between pal and ntsc there are (rough) markings on the pcb to help you. for any given trimpot:
 
-[coming soon]
+- rotate it all the way anticlockwise. from this position take the part of cross pointing south-west (7-8oclock) as reference and rotate clockwise until this reference is lined up with the marking (n for ntsc, p for pal)
+- if you have an oscilloscope you can calibrate more precisely by connecting the scope inputs to pins x of Jx and y of Jy
+- you can also try to calibrate blanking by eye - setting it roughly to the markers and then moving the trimpots slightly to see what happens.
+
+[pic coming soon]
 
 </details>
 
