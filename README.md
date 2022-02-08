@@ -124,7 +124,7 @@ for some of the rarer ic's both smd and dip footprints are on the board - if you
 to calibrate the blanking intervals between pal and ntsc there are (rough) markings on the pcb to help you. for any given trimpot:
 
 - rotate it all the way anticlockwise. from this position take the part of cross pointing south-west (7-8oclock) as reference and rotate clockwise until this reference is lined up with the marking (n for ntsc, p for pal)
-- if you have an oscilloscope you can calibrate more precisely by connecting the scope inputs to pins x of Jx and y of Jy
+- if you have an oscilloscope you can calibrate more precisely by connecting the scope inputs to pins 10 of U6 and 10 of U5
 - you can also try to calibrate blanking by eye - setting it roughly to the markers and then moving the trimpots slightly to see what happens.
 
 [pic coming soon]
