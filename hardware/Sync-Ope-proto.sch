@@ -4,11 +4,11 @@ EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 2
-Title "Sync-Ope"
-Date "2019-10-28"
-Rev "0.1"
-Comp "circuit design - Gaël Jaton"
-Comment1 "converted to kiCad - cyberboy666"
+Title "sync_ope"
+Date "2022-02-10"
+Rev "0.4"
+Comp "based on circuit design -byGaël Jaton"
+Comment1 "updated by cyberboy666"
 Comment2 ""
 Comment3 ""
 Comment4 ""
