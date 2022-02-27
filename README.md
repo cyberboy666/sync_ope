@@ -21,11 +21,6 @@ _sync_ope_ is a companion circuit for analog glitch & circuit bent video instrum
 
 [coming soon]
 
-## gallery
-
-[coming soon]
-
-
 # documentation
 
 this project is fully _open-source hardware_ - all the files required to build it are included in this repo for free. if you have the time and/or skill you can contribute back by collaborating on / testing new designs, improving these docs, making demo videos/other creative content etc. you can also support the project financially by [donating](https://liberapay.com/underscores/) directing, or purchasing through the [web shop](https://underscores.shop).
@@ -50,6 +45,8 @@ take a look at the [full_bom](/hardware/bom/full_bom.csv) for this project to se
 - after importing select _add to cart_
 - __NOTE:__ the minimum value for resistors is 10, so you may need to modify these values to add to cart (or if they are already modified here you will need to see the  full_bom for actual part QTY) 
 
+- OPTIONAL: it is a good idea to add some dip-ic sockets and 2.54pin headers/sockets to your tayda order if you dont have them around already
+  
 ## import into mouser
 
 - go to [mouser bom tool](https://nz.mouser.com/Bom/) and click _upload spreadsheet_
