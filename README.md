@@ -19,7 +19,8 @@ _sync_ope_ is a companion circuit for analog glitch & circuit bent video instrum
 
 ## demo video
 
-[coming soon]
+[![image](https://user-images.githubusercontent.com/12017938/161653960-a3acee9f-8d2a-4e02-aba6-4f62a56f0d2c.png)](https://videos.scanlines.xyz/w/eyN4xfUZrG2YHyuf6rk1wZ)
+
 
 # documentation
 
