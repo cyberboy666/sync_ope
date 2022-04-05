@@ -705,7 +705,7 @@ U 1 1 5E2FFC69
 P 3800 2650
 F 0 "J5" H 3800 2975 50  0000 R CNN
 F 1 "mono_jack_3.5mm" H 3975 2875 50  0000 R CNN
-F 2 "lib_fp:Jack_3.5mm_QingPu_WQP-PJ398SM_Vertical_CircularHoles" H 3800 2650 50  0001 C CNN
+F 2 "Connector_Audio:Jack_3.5mm_QingPu_WQP-PJ398SM_Vertical_CircularHoles" H 3800 2650 50  0001 C CNN
 F 3 "~" H 3800 2650 50  0001 C CNN
 	1    3800 2650
 	-1   0    0    -1  
@@ -1207,7 +1207,7 @@ AR Path="/5FDD6789/6011D58F" Ref="J?"  Part="1"
 AR Path="/6011D58F" Ref="J4"  Part="1" 
 F 0 "J4" H 3525 4425 50  0000 C CNN
 F 1 "mono_jack_3.5mm" H 3675 4350 50  0000 C CNN
-F 2 "lib_fp:Jack_3.5mm_QingPu_WQP-PJ398SM_Vertical_CircularHoles" H 3750 4600 50  0001 C CNN
+F 2 "Connector_Audio:Jack_3.5mm_QingPu_WQP-PJ398SM_Vertical_CircularHoles" H 3750 4600 50  0001 C CNN
 F 3 "~" H 3750 4600 50  0001 C CNN
 	1    3750 4600
 	1    0    0    -1  

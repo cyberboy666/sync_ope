@@ -80,95 +80,72 @@ Video Sync Seperator
 $Comp
 L Sync-Ope-proto-rescue:R-Sync-Ope-proto-Sync-Ope-proto-rescue R?
 U 1 1 5FDF1AC6
-P 3675 4450
+P 3925 4450
 AR Path="/5FDF1AC6" Ref="R?"  Part="1" 
 AR Path="/5FDD6789/5FDF1AC6" Ref="R18"  Part="1" 
-F 0 "R18" V 3755 4450 50  0000 C CNN
-F 1 "1k" V 3675 4450 50  0000 C CNN
-F 2 "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal" V 3605 4450 50  0001 C CNN
-F 3 "" H 3675 4450 50  0001 C CNN
-	1    3675 4450
+F 0 "R18" V 4005 4450 50  0000 C CNN
+F 1 "1k" V 3925 4450 50  0000 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal" V 3855 4450 50  0001 C CNN
+F 3 "" H 3925 4450 50  0001 C CNN
+	1    3925 4450
 	-1   0    0    -1  
 $EndComp
 $Comp
 L Sync-Ope-proto-rescue:LED-Device D?
 U 1 1 5FDF1ACC
-P 3675 4150
+P 3925 4150
 AR Path="/5FDF1ACC" Ref="D?"  Part="1" 
 AR Path="/5FDD6789/5FDF1ACC" Ref="D5"  Part="1" 
-F 0 "D5" V 3714 4033 50  0000 R CNN
-F 1 "LED" V 3623 4033 50  0000 R CNN
-F 2 "LED_THT:LED_D3.0mm" H 3675 4150 50  0001 C CNN
-F 3 "~" H 3675 4150 50  0001 C CNN
-	1    3675 4150
+F 0 "D5" V 3964 4033 50  0000 R CNN
+F 1 "LED" V 3873 4033 50  0000 R CNN
+F 2 "LED_THT:LED_D3.0mm" H 3925 4150 50  0001 C CNN
+F 3 "~" H 3925 4150 50  0001 C CNN
+	1    3925 4150
 	0    -1   -1   0   
 $EndComp
 Text HLabel 1425 4000 0    60   Input ~ 0
 video_in
-Text HLabel 10400 5550 2    60   Input ~ 0
+Text HLabel 10500 5550 2    60   Input ~ 0
 input_blank
-Text HLabel 10400 5250 2    60   Input ~ 0
+Text HLabel 10500 5250 2    60   Input ~ 0
 return_blank
-Text HLabel 10425 5850 2    60   Output ~ 0
+Text HLabel 10500 5850 2    60   Output ~ 0
 control_pulse
-Text HLabel 8625 5950 0    60   Input ~ 0
+Text HLabel 8750 5950 0    60   Input ~ 0
 control_blank
 $Comp
 L power:GND #PWR064
 U 1 1 5FDDBCAE
-P 9575 6250
-F 0 "#PWR064" H 9575 6000 50  0001 C CNN
-F 1 "GND" H 9580 6077 50  0000 C CNN
-F 2 "" H 9575 6250 50  0001 C CNN
-F 3 "" H 9575 6250 50  0001 C CNN
-	1    9575 6250
+P 9650 6250
+F 0 "#PWR064" H 9650 6000 50  0001 C CNN
+F 1 "GND" H 9655 6077 50  0000 C CNN
+F 2 "" H 9650 6250 50  0001 C CNN
+F 3 "" H 9650 6250 50  0001 C CNN
+	1    9650 6250
 	-1   0    0    -1  
 $EndComp
-Wire Wire Line
-	9575 6250 9575 6150
 $Comp
 L power:GND #PWR066
 U 1 1 5FDDBCB8
-P 10075 5950
-F 0 "#PWR066" H 10075 5700 50  0001 C CNN
-F 1 "GND" H 10080 5777 50  0000 C CNN
-F 2 "" H 10075 5950 50  0001 C CNN
-F 3 "" H 10075 5950 50  0001 C CNN
-	1    10075 5950
+P 10150 5950
+F 0 "#PWR066" H 10150 5700 50  0001 C CNN
+F 1 "GND" H 10155 5777 50  0000 C CNN
+F 2 "" H 10150 5950 50  0001 C CNN
+F 3 "" H 10150 5950 50  0001 C CNN
+	1    10150 5950
 	-1   0    0    -1  
 $EndComp
 $Comp
 L power:+5V #PWR063
 U 1 1 5FDDBCBE
-P 9475 4750
-F 0 "#PWR063" H 9475 4600 50  0001 C CNN
-F 1 "+5V" H 9490 4923 50  0000 C CNN
-F 2 "" H 9475 4750 50  0001 C CNN
-F 3 "" H 9475 4750 50  0001 C CNN
-	1    9475 4750
+P 9550 4750
+F 0 "#PWR063" H 9550 4600 50  0001 C CNN
+F 1 "+5V" H 9565 4923 50  0000 C CNN
+F 2 "" H 9550 4750 50  0001 C CNN
+F 3 "" H 9550 4750 50  0001 C CNN
+	1    9550 4750
 	-1   0    0    -1  
 $EndComp
-Connection ~ 10075 5050
-Connection ~ 10075 4950
-Wire Wire Line
-	10075 5050 10075 5150
-Wire Wire Line
-	10075 4950 10075 5050
-$Comp
-L Sync-Ope-proto-rescue:CD4053B-Analog_Switch U?
-U 1 1 5FDDBCD5
-P 9575 5450
-AR Path="/5FDDBCD5" Ref="U?"  Part="1" 
-AR Path="/5FDD6789/5FDDBCD5" Ref="U8"  Part="1" 
-F 0 "U8" H 9275 6175 50  0000 C CNN
-F 1 "CD4053B" H 9300 6100 50  0000 C CNN
-F 2 "Package_DIP:DIP-16_W7.62mm_LongPads" H 9725 4700 50  0001 L CNN
-F 3 "http://www.ti.com/lit/ds/symlink/cd4052b.pdf" H 9555 5650 50  0001 C CNN
-	1    9575 5450
-	-1   0    0    -1  
-$EndComp
-Wire Wire Line
-	8850 5250 9075 5250
 $Comp
 L 74hc4538:74HC4538 U6
 U 1 1 5FDDBCE1
@@ -256,8 +233,6 @@ F 3 "" H 5250 2875 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	6000 3900 6250 3900
-Wire Wire Line
-	10075 4950 10800 4950
 $Comp
 L 74hc4538:74HC4538 U5
 U 3 1 5FDDBD1C
@@ -292,39 +267,17 @@ F 3 "" H 850 7500 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Connection ~ 5400 3500
-Wire Wire Line
-	10400 5250 10075 5250
-Wire Wire Line
-	10400 5550 10075 5550
-Wire Wire Line
-	9075 5550 8850 5550
-Wire Wire Line
-	8850 5550 8850 5250
 $Comp
 L power:GND #PWR062
 U 1 1 603048A2
-P 8850 6075
-F 0 "#PWR062" H 8850 5825 50  0001 C CNN
-F 1 "GND" H 8855 5902 50  0000 C CNN
-F 2 "" H 8850 6075 50  0001 C CNN
-F 3 "" H 8850 6075 50  0001 C CNN
-	1    8850 6075
+P 8950 6075
+F 0 "#PWR062" H 8950 5825 50  0001 C CNN
+F 1 "GND" H 8955 5902 50  0000 C CNN
+F 2 "" H 8950 6075 50  0001 C CNN
+F 3 "" H 8950 6075 50  0001 C CNN
+	1    8950 6075
 	-1   0    0    -1  
 $EndComp
-Connection ~ 8850 5550
-NoConn ~ 9075 5350
-NoConn ~ 9075 5650
-Wire Wire Line
-	10425 5850 10075 5850
-Wire Wire Line
-	9075 5850 8850 5850
-Wire Wire Line
-	8850 5550 8850 5850
-Connection ~ 8850 5850
-Wire Wire Line
-	8850 5850 8850 6075
-Wire Wire Line
-	9075 5950 8625 5950
 Wire Wire Line
 	1425 4000 1975 4000
 $Comp
@@ -351,19 +304,18 @@ F 3 "" H 3000 4400 50  0001 C CNN
 	1    3000 4400
 	1    0    0    -1  
 $EndComp
-NoConn ~ 3500 4100
 NoConn ~ 3500 4200
 $Comp
 L Sync-Ope-proto-rescue:GND-Sync-Ope-proto-Sync-Ope-proto-rescue #PWR?
 U 1 1 603992F4
-P 3675 4600
+P 3925 4600
 AR Path="/603992F4" Ref="#PWR?"  Part="1" 
 AR Path="/5FDD6789/603992F4" Ref="#PWR050"  Part="1" 
-F 0 "#PWR050" H 3675 4350 50  0001 C CNN
-F 1 "GND" H 3675 4450 50  0000 C CNN
-F 2 "" H 3675 4600 50  0001 C CNN
-F 3 "" H 3675 4600 50  0001 C CNN
-	1    3675 4600
+F 0 "#PWR050" H 3925 4350 50  0001 C CNN
+F 1 "GND" H 3925 4450 50  0000 C CNN
+F 2 "" H 3925 4600 50  0001 C CNN
+F 3 "" H 3925 4600 50  0001 C CNN
+	1    3925 4600
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
@@ -389,23 +341,21 @@ Wire Wire Line
 Connection ~ 1975 4425
 Text Notes 2350 1250 0    79   ~ 0
 generate blanking pulse
-Text Notes 7475 5075 0    79   ~ 0
+Text Notes 7575 5075 0    79   ~ 0
 add blanking pulse
 $Comp
 L power:-5V #PWR065
 U 1 1 60E7AA52
-P 9850 6500
-F 0 "#PWR065" H 9850 6600 50  0001 C CNN
-F 1 "-5V" H 9865 6673 50  0000 C CNN
-F 2 "" H 9850 6500 50  0001 C CNN
-F 3 "" H 9850 6500 50  0001 C CNN
-	1    9850 6500
+P 9950 6500
+F 0 "#PWR065" H 9950 6600 50  0001 C CNN
+F 1 "-5V" H 9965 6673 50  0000 C CNN
+F 2 "" H 9950 6500 50  0001 C CNN
+F 3 "" H 9950 6500 50  0001 C CNN
+	1    9950 6500
 	-1   0    0    1   
 $EndComp
 Wire Wire Line
-	9850 6500 9850 6150
-Wire Wire Line
-	9850 6150 9675 6150
+	9950 6500 9950 6150
 $Comp
 L 74hc4538:74HC4538 U6
 U 3 1 6150D696
@@ -735,11 +685,6 @@ c_blanking
 Wire Wire Line
 	7800 1750 8150 1750
 Wire Wire Line
-	3500 4000 3675 4000
-Connection ~ 3675 4000
-Wire Wire Line
-	3675 4000 4150 4000
-Wire Wire Line
 	3850 1950 5000 1950
 Wire Wire Line
 	4500 2150 4500 2600
@@ -755,8 +700,71 @@ Wire Wire Line
 Wire Wire Line
 	8150 2300 10800 2300
 Wire Wire Line
-	10800 2300 10800 4950
-Wire Wire Line
 	8200 1750 8150 1750
 Connection ~ 8150 1750
+Wire Wire Line
+	10900 2300 10900 5150
+Wire Wire Line
+	8950 5250 8950 5550
+Wire Wire Line
+	9150 5950 8750 5950
+Wire Wire Line
+	9150 5850 8950 5850
+Connection ~ 8950 5850
+Wire Wire Line
+	8950 5850 8950 6075
+NoConn ~ 9150 5650
+Wire Wire Line
+	9150 5550 8950 5550
+Connection ~ 8950 5550
+Wire Wire Line
+	8950 5550 8950 5850
+Wire Wire Line
+	8950 5250 9150 5250
+NoConn ~ 9150 5350
+Wire Wire Line
+	9650 6250 9650 6150
+Wire Wire Line
+	9750 6150 9950 6150
+Wire Wire Line
+	10150 5850 10500 5850
+Wire Wire Line
+	10500 5550 10150 5550
+Wire Wire Line
+	10500 5250 10150 5250
+$Comp
+L Sync-Ope-proto-rescue:CD4053B-Analog_Switch U?
+U 1 1 5FDDBCD5
+P 9650 5450
+AR Path="/5FDDBCD5" Ref="U?"  Part="1" 
+AR Path="/5FDD6789/5FDDBCD5" Ref="U8"  Part="1" 
+F 0 "U8" H 9350 6175 50  0000 C CNN
+F 1 "74HC4053" H 9375 6100 50  0000 C CNN
+F 2 "Package_DIP:DIP-16_W7.62mm_LongPads" H 9800 4700 50  0001 L CNN
+F 3 "http://www.ti.com/lit/ds/symlink/cd4052b.pdf" H 9630 5650 50  0001 C CNN
+	1    9650 5450
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	10150 5150 10900 5150
+Connection ~ 3925 4000
+Wire Wire Line
+	3925 4000 4150 4000
+Wire Wire Line
+	3500 4000 3925 4000
+Wire Wire Line
+	3500 4100 3650 4100
+Wire Wire Line
+	3650 4100 3650 4850
+Wire Wire Line
+	3650 4850 9050 4850
+Wire Wire Line
+	9050 4850 9050 4500
+Wire Wire Line
+	9050 4500 10150 4500
+Wire Wire Line
+	10150 4500 10150 4950
+Wire Wire Line
+	10150 4950 10150 5050
+Connection ~ 10150 4950
 $EndSCHEMATC
