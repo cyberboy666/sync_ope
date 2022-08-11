@@ -1,4 +1,5 @@
 (sym_lib_table
-  (lib (name Sync-Ope-proto-rescue)(type Legacy)(uri ${KIPRJMOD}/Sync-Ope-proto-rescue.lib)(options "")(descr ""))
-  (lib (name 74hc4538)(type Legacy)(uri ${KIPRJMOD}/lib_sch/74hc4538.lib)(options "")(descr ""))
+  (lib (name "Sync-Ope-proto-rescue")(type "Legacy")(uri "${KIPRJMOD}/Sync-Ope-proto-rescue.lib")(options "")(descr ""))
+  (lib (name "74hc4538")(type "Legacy")(uri "${KIPRJMOD}/lib_sch/74hc4538.lib")(options "")(descr ""))
+  (lib (name "sync_ope-rescue")(type "Legacy")(uri "${KIPRJMOD}/sync_ope-rescue.lib")(options "")(descr ""))
 )
