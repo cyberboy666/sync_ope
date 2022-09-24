@@ -69,7 +69,7 @@
       (mirror false)
       (drillshape 0)
       (scaleselection 1)
-      (outputdirectory "../sync_ope_0_5_1")
+      (outputdirectory "./sync_ope_v0_5_1")
     )
   )
 
