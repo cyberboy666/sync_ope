@@ -82,22 +82,58 @@ follow this link to view the [interactive BOM](https://htmlpreview.github.io/?ht
 
 - Checkout the web-comic [soldering is easy](https://mightyohm.com/files/soldercomic/FullSolderComic_EN.pdf) for more soldering advice
 
-## general order of assembly
-
-- in general while assembling i start placing resistors and capacitors first. placing 5 - 10 components at a time and then flipping the board to solder them and trim the legs etc.
-- next i would do diodes, transistors and ic's - taking care that these are placed in the right direction (using a ic socket can be useful)
-- finally i place the interface parts - rca jacks, power jack, pots and switches - make sure these have lots of solder on for structural stability
-
-## slightly more specific assembly advice
-  
-[coming soon]
-
 ## smd or dip ic option
   
 for some of the rarer ic's both smd and dip footprints are on the board - if you are assembling yourself you can choose which of these to source (dont place both!)
  - for the smd parts i would place and solder these first before doing any of the throughhole parts - please make sure these parts are placed facing __downwards__ as indicated on the silkscreen. you can test the continuity of your solder joints with a multimeter on the pin + one on the corresponding dip pad
-  
 
+## assemble guide
+
+- Start by soldering the smallest parts first: resistors, diodes, capacitors and regulators - take note of the direction on the diodes : black bar on component matching black bar on footprint – I place about 10 components in and then solder and clip them
+- Next lets do the ic’s/sockets - make sure the direction is correct! place in and fold two corner pins to hold in place, then solder all pins. you can place the ic in now too
+- Finally solder in the interface parts: trim_pots & pots, jacks, power barrel. If you are using not using eurorack power supply there is no need to solder anything on j7 (or j3)
+
+## blanking calibration
+
+There is a total of 4 trimpots on the sync_ope board to calibrate the vertical and horizontal blanking pulses – __start by rotating all of them fully clockwise__
+
+## calibrating with an osciloscope
+
+If you have a two channel oscilloscope with edge trigger you can inspect the incoming video signal on one channel and the blanking pulse on the other (trigger on rising edge of this blanking pulse channel)
+
+### calibrate v_blanking (RV3, RV5)
+
+- set the scope width to about 1ms - test the edge detect works by probbing pin3 of u7_lm1881 this should lock the scrolling display to vblanking of the incoming video frame
+- next hold pulse probe on _v_blanking_ (__pin10 of u6_hc4538__) - similar to above, the scrolling video should lock over blanking pulse trigger
+- starting with top left trim (rv3) allign the rising edge of blanking pulse to the rising edge of video signal by turning rv3 counterclockwise
+- next allign falling edge of blanking pulse to falling edge of video signal by turning rv5 counterclockwise
+
+![vblanking](https://user-images.githubusercontent.com/12017938/192134874-f11f966b-fa23-4c85-a69e-5f3b26dad0a5.jpeg)
+
+### calibrating c_blanking (RV2, RV4):
+
+- set scope width to about 10us - test the edge detect works by probing pin1 of u7_lm1881 this should lock the scrolling display to c_blanking of incoming video line
+- next hold pulse probe on c_blanking (pin10 of u5_hc4538) - similar to above, the scrolling video should lock over blanking pulse trigger
+- starting with top right trim (rv2) allign the rising edge of blanking pulse to the rising edge of video signal by turning rv2 counterclockwise
+- next allign falling edge of blanking pulse to falling edge of video signal by turning rv4 counterclockwise
+
+![cblanking](https://user-images.githubusercontent.com/12017938/192134947-403f88c8-1bb6-428f-88a9-5623dca395b6.jpeg)
+
+## calibrating without an osciloscope
+
+__start with all trim pots clockwise__ . plug in an effect and have sync_ope mix knob clockwise (wet): notice the square outline of the screen with the effect and the outer parts that are without - this is what we are trying to fill in:
+
+![vlcsnap-2022-09-24-21h25m09s377](https://user-images.githubusercontent.com/12017938/192134996-a90a3621-ef33-4745-9665-fe4f74fff4a5.png)
+
+starting v_blanking with top left - rv3 and then to rv5:
+
+- watching top of screen turn rv3 counterclockwise until effect alligns with viewing area
+- watching bottom of screen turn rv5 counterclockwise until effect alligns with viewing area
+
+now c_blanking with top right - rv2 then rv4:
+
+- watching left of screen turn rv2 counterclockwise until effect alligns with viewing area
+- watching right of screen turn rv4 counterclockwise until effect alligns with viewing area
   
 </details>
 
@@ -134,6 +170,7 @@ to calibrate the blanking intervals between pal and ntsc there are (rough) marki
 <details><summary><b>how the circuit works</b></summary>
   
 [coming soon]
+
                                                                                                                              
 </details>
 
