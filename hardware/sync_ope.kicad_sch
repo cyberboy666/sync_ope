@@ -4720,13 +4720,13 @@
       (reference "R18") (unit 1) (value "1k") (footprint "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal")
     )
     (path "/00000000-0000-0000-0000-00005fdd6789/00000000-0000-0000-0000-000061573b8c"
-      (reference "R19") (unit 1) (value "8.2k") (footprint "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal")
+      (reference "R19") (unit 1) (value "10k") (footprint "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal")
     )
     (path "/00000000-0000-0000-0000-00005fdd6789/00000000-0000-0000-0000-00005fddbcff"
       (reference "R20") (unit 1) (value "15k") (footprint "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal")
     )
     (path "/00000000-0000-0000-0000-00005fdd6789/00000000-0000-0000-0000-000061573bda"
-      (reference "R21") (unit 1) (value "51k") (footprint "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal")
+      (reference "R21") (unit 1) (value "68k") (footprint "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal")
     )
     (path "/00000000-0000-0000-0000-00005fdd6789/00000000-0000-0000-0000-00006151f971"
       (reference "R22") (unit 1) (value "22k") (footprint "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal")

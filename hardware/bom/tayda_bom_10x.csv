@@ -1,7 +1,7 @@
 sku,qty,ref,val,vendor
 A-4503,20,C1 C2 ,220u,tayda
-A-543,20,C19 C21 ,1nf_poly,tayda
-A-4008,10,C20 ,0.1u_poly,tayda
+A-1987,20,C19 C21 ,1nf_poly,tayda
+A-564,10,C20 ,0.1u_poly,tayda
 A-321,10,C22 ,1uf_poly,tayda
 A-4022,20,C3 C7 ,0.33u,tayda
 A-4008,150,C4 C6 C9 C10 C11 C12 C13 C14 C15 C16 C17 C18 C23 C24 C25 ,0.1u,tayda
@@ -16,14 +16,13 @@ A-2563,10,J8 ,mono_jack_3.5mm,tayda
 A-2193,40,R1 R7 R9 R16 ,75,tayda
 A-2180,10,R10 ,470k,tayda
 A-2246,10,R11 ,220,tayda
-A-2203,10,R14 ,10k,tayda
+A-2203,20,R14 R19 ,10k,tayda
 A-2279,10,R15 ,47k,tayda
 A-2192,10,R17 ,680k,tayda
 A-2200,10,R18 ,1k,tayda
-A-2337,10,R19 ,8.2k,tayda
 A-2202,50,R2 R4 R5 R12 R13 ,1.5k,tayda
 A-2182,10,R20 ,15k,tayda
-A-2775,10,R21 ,51k,tayda
+A-2334,10,R21 ,68k,tayda
 A-2284,10,R22 ,22k,tayda
 A-2621,10,R3 ,510,tayda
 A-2245,10,R6 ,100,tayda
