@@ -14,7 +14,7 @@ A-3005,1,D5 ,LED,tayda
 A-4118,1,J2 ,barrel_jack,tayda
 A-2956,1,J3 ,europower,tayda
 A-2563,2,J4 J5 ,mono_jack_3.5mm,tayda
--,1,J7 ,diy_power_header
+-,1,J7 ,diy_power_header,-
 A-2563,1,J8 ,mono_jack_3.5mm,tayda
 A-2193,4,R1 R7 R9 R16 ,75,tayda
 A-2180,1,R10 ,470k,tayda
