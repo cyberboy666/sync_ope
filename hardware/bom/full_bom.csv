@@ -11,11 +11,11 @@ A-1095,3,D4 D6 D8 ,bat46,tayda
 A-3005,1,D5 ,LED,tayda
 A-155,1,D7 ,1n4007,tayda
 490-RCJ-024,4,J1 J6 J9 J10 ,rca,mouser
--,1,J11 ,Conn_01x02
+-,1,J11 ,Conn_01x02, -
 A-4118,1,J2 ,barrel_jack,tayda
 A-2956,1,J3 ,europower,tayda
 A-2563,3,J4 J5 J8 ,mono_jack_3.5mm,tayda
--,1,J7 ,diy_power_header
+-,1,J7 ,diy_power_header, -
 A-5503,2,L1 L2 ,100uH,tayda
 A-2193,4,R1 R7 R9 R16 ,75,tayda
 A-2180,1,R10 ,470k,tayda
