@@ -1,18 +1,18 @@
 sku,qty,ref,val,vendor
-A-4503,2,C1 C2 ,220u,tayda
+A-4503,1,C1 ,220u,tayda
 A-1987,2,C19 C21 ,1nf_poly,tayda
+A-4526,2,C2 C3 ,2200u,tayda
 A-564,1,C20 ,0.1u_poly,tayda
 A-321,1,C22 ,1uf_poly,tayda
-A-4022,2,C3 C7 ,0.33u,tayda
-A-4008,15,C4 C6 C9 C10 C11 C12 C13 C14 C15 C16 C17 C18 C23 C24 C25 ,0.1u,tayda
-A-959,2,C5 C8 ,100u,tayda
-A-155,4,D1 D2 D6 D7 ,1n4007,tayda
-A-1095,1,D4 ,bat46,tayda
+A-4008,13,C4 C10 C11 C12 C13 C14 C15 C16 C17 C18 C23 C24 C25 ,0.1u,tayda
+A-484,2,D1 D2 ,1n5819,tayda
+A-1095,3,D4 D6 D8 ,bat46,tayda
 A-3005,1,D5 ,LED,tayda
+A-155,1,D7 ,1n4007,tayda
 A-4118,1,J2 ,barrel_jack,tayda
 A-2956,1,J3 ,europower,tayda
-A-2563,2,J4 J5 ,mono_jack_3.5mm,tayda
-A-2563,1,J8 ,mono_jack_3.5mm,tayda
+A-2563,3,J4 J5 J8 ,mono_jack_3.5mm,tayda
+A-5503,2,L1 L2 ,100uH,tayda
 A-2193,4,R1 R7 R9 R16 ,75,tayda
 A-2180,1,R10 ,470k,tayda
 A-2246,1,R11 ,220,tayda
@@ -31,6 +31,4 @@ A-5531,1,RV1 ,10k_pot,tayda
 A-610,1,RV2 ,5k_trim,tayda
 A-608,1,RV3 ,20k_trim,tayda
 A-604,2,RV4 RV5 ,10k_trim,tayda
-A-179,1,U2 ,L7805,tayda
-A-258,1,U3 ,L7905,tayda
 A-028,1,U8 ,74HC4053,tayda
