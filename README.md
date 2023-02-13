@@ -2,7 +2,7 @@
 
 ### effect send + sync restoring circuit - adapted from a gael jaton design
 
-![image](https://user-images.githubusercontent.com/12017938/151889912-245b7f5d-ce1d-412e-b9c4-7c9430327c59.png)
+![image](https://user-images.githubusercontent.com/12017938/218357290-955a3ccf-46f4-4c3b-bac9-b18888298c8e.png)
 
 - this circuit is distributed by __UNDERSCORES__ - _an open video hardware label_ : it is available to purchase - as a pcb, kit or assembled unit - at [underscores.shop](https://underscores.shop/sync_ope/)
 - the schematic for the circuit can be found [here](/hardware/schematic.pdf)
@@ -195,6 +195,8 @@ Ask any questions or start discussions related to this project on the [scanlines
 
 You can contact me directly at tim (at) cyberboy666 (dot) com 
 Please get in touch if you are interested in hosting a workshop !
+
+![image](https://user-images.githubusercontent.com/12017938/218357427-d6657b54-4d49-4b3b-9a02-a9b3a7d26ffb.png)
 
 Thanks to Gael Jaton for sharing your designs and knowledge. to Bastien Lavaud for circuit advice, always. To Guergana Tzatchkova for booklet design inspiration. To Ben Caldwell for project advice. To everyone who has or will contribute ♥♥♥
 
