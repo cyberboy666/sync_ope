@@ -142,10 +142,10 @@ now c_blanking with top right - rv2 then rv4:
   
 <details><summary><b>operating guide</b> - start here if you have purchased an assembled unit</summary>
   
-![image](https://user-images.githubusercontent.com/12017938/152468139-b49d1d13-512f-4a97-aa2d-0f5f054878d0.png)
+![image](https://user-images.githubusercontent.com/12017938/218356460-cac14e92-4bc1-4e2b-aefc-417287d5100b.png)
 
   
-- power the unit via the barrel jack with a 9-12v AC-AC adapter only (regular DC ones wont work here) - alternatively you can power it with +-12V from the eurorack header or +-5v with the side power pins
+- power the unit via the barrel jack with 12v_dc adapter - alternatively you can power it from the eurorack header or +-5v with the side power pins
 - plug a composite video source (eg output from a camcorder) into the top left VIDEO_IN jack -> the middle led should light up when a video source input is detected
 - plug a composite video display (eg an old tv or easycap capture card) into the top right VIDEO_OUT jack 
 - now  with mix knob rotated fully anti-clockwise your source video should be passing through to the display
