@@ -7,7 +7,7 @@
   (title_block
     (title "sync_ope")
     (date "2022-11-24")
-    (rev "1.0.0")
+    (rev "1.0.1")
     (company "based on circuit design -byGaël Jaton")
     (comment 1 "updated by cyberboy666")
   )
@@ -1751,7 +1751,6 @@
       )
     )
   )
-
 
   (junction (at 139.7 67.945) (diameter 0) (color 0 0 0 0)
     (uuid 05d810a4-4ed0-4813-9517-eb2e68541430)
@@ -3950,7 +3949,7 @@
     (property "Reference" "D2" (id 0) (at 104.775 182.88 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Value" "1N5819" (id 1) (at 104.775 185.42 90)
+    (property "Value" "1n5819" (id 1) (at 104.775 185.42 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Footprint" "Diode_THT:D_DO-41_SOD81_P7.62mm_Horizontal" (id 2) (at 102.87 184.15 0)
@@ -4116,7 +4115,7 @@
     (property "Reference" "D1" (id 0) (at 104.775 158.115 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Value" "1N5819" (id 1) (at 104.775 160.655 90)
+    (property "Value" "1n5819" (id 1) (at 104.775 160.655 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Footprint" "Diode_THT:D_DO-41_SOD81_P7.62mm_Horizontal" (id 2) (at 102.87 159.385 0)
@@ -4454,10 +4453,10 @@
       (reference "C25") (unit 1) (value "0.1u") (footprint "Capacitor_THT:C_Disc_D4.3mm_W1.9mm_P5.00mm")
     )
     (path "/bf960921-d501-4d3d-a988-849edc839478"
-      (reference "D1") (unit 1) (value "1N5819") (footprint "Diode_THT:D_DO-41_SOD81_P7.62mm_Horizontal")
+      (reference "D1") (unit 1) (value "1n5819") (footprint "Diode_THT:D_DO-41_SOD81_P7.62mm_Horizontal")
     )
     (path "/415bca51-8b22-4605-acfd-a559d5f85385"
-      (reference "D2") (unit 1) (value "1N5819") (footprint "Diode_THT:D_DO-41_SOD81_P7.62mm_Horizontal")
+      (reference "D2") (unit 1) (value "1n5819") (footprint "Diode_THT:D_DO-41_SOD81_P7.62mm_Horizontal")
     )
     (path "/00000000-0000-0000-0000-00005e4691b4"
       (reference "D3") (unit 1) (value "zener_1.8v") (footprint "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal")
@@ -4580,7 +4579,7 @@
       (reference "R21") (unit 1) (value "68k") (footprint "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal")
     )
     (path "/00000000-0000-0000-0000-00005fdd6789/00000000-0000-0000-0000-00006151f971"
-      (reference "R22") (unit 1) (value "22k") (footprint "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal")
+      (reference "R22") (unit 1) (value "12k") (footprint "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal")
     )
     (path "/00000000-0000-0000-0000-00005db76f3b"
       (reference "RV1") (unit 1) (value "10k_pot") (footprint "lib_fp:Potentiometer_Vertical_Large")
@@ -4595,7 +4594,7 @@
       (reference "RV4") (unit 1) (value "10k_trim") (footprint "lib_fp:tht_vertical_trim_3362")
     )
     (path "/00000000-0000-0000-0000-00005fdd6789/00000000-0000-0000-0000-00006151f97c"
-      (reference "RV5") (unit 1) (value "10k_trim") (footprint "lib_fp:tht_vertical_trim_3362")
+      (reference "RV5") (unit 1) (value "20k_trim") (footprint "lib_fp:tht_vertical_trim_3362")
     )
     (path "/00000000-0000-0000-0000-00005db6bab3"
       (reference "U1") (unit 1) (value "AD8072") (footprint "lib_fp:DIP-SOIC-8")

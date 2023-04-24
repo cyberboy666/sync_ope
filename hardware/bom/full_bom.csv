@@ -11,11 +11,11 @@ A-1095,3,D4 D6 D8 ,bat46,tayda
 A-3005,1,D5 ,LED,tayda
 A-155,1,D7 ,1n4007,tayda
 490-RCJ-024,4,J1 J6 J9 J10 ,rca,mouser
--,1,J11 ,Conn_01x02
+-,1,J11 ,Conn_01x02,-
 A-4118,1,J2 ,barrel_jack,tayda
 A-2956,1,J3 ,europower,tayda
 A-2563,3,J4 J5 J8 ,mono_jack_3.5mm,tayda
--,1,J7 ,diy_power_header
+-,1,J7 ,diy_power_header,-
 A-5503,2,L1 L2 ,100uH,tayda
 A-2193,4,R1 R7 R9 R16 ,75,tayda
 A-2180,1,R10 ,470k,tayda
@@ -27,14 +27,14 @@ A-2200,1,R18 ,1k,tayda
 A-2202,5,R2 R4 R5 R12 R13 ,1.5k,tayda
 A-2182,1,R20 ,15k,tayda
 A-2334,1,R21 ,68k,tayda
-A-2284,1,R22 ,22k,tayda
+A-2203,1,R22 ,12k,tayda
 A-2621,1,R3 ,510,tayda
 A-2245,1,R6 ,100,tayda
 A-2313,1,R8 ,39k,tayda
 A-5531,1,RV1 ,10k_pot,tayda
 A-610,1,RV2 ,5k_trim,tayda
-A-608,1,RV3 ,20k_trim,tayda
-A-604,2,RV4 RV5 ,10k_trim,tayda
+A-608,2,RV3 RV5 ,20k_trim,tayda
+A-604,1,RV4 ,10k_trim,tayda
 584-AD8072JNZ,1,U1 ,AD8072,mouser
 863-LM2575T-5G,2,U2 U3 ,LM2575-5.0BT,mouser
 584-LT1251CN#PBF,1,U4 ,LT1251,mouser

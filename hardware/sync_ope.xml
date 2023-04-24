@@ -2,7 +2,7 @@
 <export version="E">
   <design>
     <source>/home/timcaldwell/projects/sync_ope/hardware/sync_ope.kicad_sch</source>
-    <date>Thu 24 Nov 2022 13:40:35</date>
+    <date>Mon 24 Apr 2023 16:43:55</date>
     <tool>Eeschema 6.0.7</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
@@ -648,7 +648,7 @@
       <tstamps>00000000-0000-0000-0000-000061573bda</tstamps>
     </comp>
     <comp ref="R22">
-      <value>22k</value>
+      <value>12k</value>
       <footprint>Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal</footprint>
       <libsource lib="Device" part="R" description="Resistor"/>
       <property name="Sheetname" value="blanking"/>
@@ -684,7 +684,7 @@
       <tstamps>00000000-0000-0000-0000-000061573be5</tstamps>
     </comp>
     <comp ref="RV5">
-      <value>10k_trim</value>
+      <value>20k_trim</value>
       <footprint>lib_fp:tht_vertical_trim_3362</footprint>
       <libsource lib="sync_ope-rescue" part="R_POT-Device" description=""/>
       <property name="Sheetname" value="blanking"/>

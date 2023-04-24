@@ -37,6 +37,7 @@
       9,
       10,
       11,
+      12,
       13,
       14,
       15,
@@ -62,7 +63,7 @@
       36
     ],
     "visible_layers": "001ffff_80000001",
-    "zone_display_mode": 1
+    "zone_display_mode": 0
   },
   "meta": {
     "filename": "sync_ope.kicad_prl",

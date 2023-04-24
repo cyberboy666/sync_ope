@@ -23,12 +23,12 @@ A-2200,1,R18 ,1k,tayda
 A-2202,5,R2 R4 R5 R12 R13 ,1.5k,tayda
 A-2182,1,R20 ,15k,tayda
 A-2334,1,R21 ,68k,tayda
-A-2284,1,R22 ,22k,tayda
+A-2203,1,R22 ,12k,tayda
 A-2621,1,R3 ,510,tayda
 A-2245,1,R6 ,100,tayda
 A-2313,1,R8 ,39k,tayda
 A-5531,1,RV1 ,10k_pot,tayda
 A-610,1,RV2 ,5k_trim,tayda
-A-608,1,RV3 ,20k_trim,tayda
-A-604,2,RV4 RV5 ,10k_trim,tayda
+A-608,2,RV3 RV5 ,20k_trim,tayda
+A-604,1,RV4 ,10k_trim,tayda
 A-028,1,U8 ,74HC4053,tayda
