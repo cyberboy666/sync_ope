@@ -2,7 +2,7 @@
 
 ### effect send + sync restoring circuit - adapted from a gael jaton design
 
-![image](https://user-images.githubusercontent.com/12017938/151889912-245b7f5d-ce1d-412e-b9c4-7c9430327c59.png)
+![image](https://user-images.githubusercontent.com/12017938/218357290-955a3ccf-46f4-4c3b-bac9-b18888298c8e.png)
 
 - this circuit is distributed by __UNDERSCORES__ - _an open video hardware label_ : it is available to purchase - as a pcb, kit or assembled unit - at [underscores.shop](https://underscores.shop/sync_ope/)
 - the schematic for the circuit can be found [here](/hardware/schematic.pdf)
@@ -43,7 +43,7 @@ take a look at the [full_bom](/hardware/bom/full_bom.csv) for this project to se
 ## import into tayda
 
 - go to the [tayda quick order](https://www.taydaelectronics.com/quick-order/) and in bottom corner choose _add from file_
-- select the file [tayda_bom.csv](../hardware/bom/tayda_bom.csv) in the BOM folder (you will have to download it first or clone this repo)
+- select the file [tayda_bom.csv](./hardware/bom/tayda_bom.csv) in the BOM folder (you will have to download it first or clone this repo)
 - after importing select _add to cart_
 - __NOTE:__ the minimum value for resistors is 10, so you may need to modify these values to add to cart (or if they are already modified here you will need to see the  full_bom for actual part QTY) 
 
@@ -52,7 +52,7 @@ take a look at the [full_bom](/hardware/bom/full_bom.csv) for this project to se
 ## import into mouser
 
 - go to [mouser bom tool](https://nz.mouser.com/Bom/) and click _upload spreadsheet_
-- select the file [mouser_bom.csv](../hardware/bom/mouser_bom.csv) in this folder (you will have to download it first or clone this repo), then _upload my spreadsheet_ and _next_
+- select the file [mouser_bom.csv](./hardware/bom/mouser_bom.csv) in this folder (you will have to download it first or clone this repo), then _upload my spreadsheet_ and _next_
 - ensure that __Mouser Part Number__ is selected in the dropdown above the first row, then _next_, _process_
 - if everything looks correct can now put _add to basket_
 
@@ -142,10 +142,10 @@ now c_blanking with top right - rv2 then rv4:
   
 <details><summary><b>operating guide</b> - start here if you have purchased an assembled unit</summary>
   
-![image](https://user-images.githubusercontent.com/12017938/152468139-b49d1d13-512f-4a97-aa2d-0f5f054878d0.png)
+![image](https://user-images.githubusercontent.com/12017938/218356460-cac14e92-4bc1-4e2b-aefc-417287d5100b.png)
 
   
-- power the unit via the barrel jack with a 9-12v AC-AC adapter only (regular DC ones wont work here) - alternatively you can power it with +-12V from the eurorack header or +-5v with the side power pins
+- power the unit via the barrel jack with 12v_dc adapter - alternatively you can power it from the eurorack header or +-5v with the side power pins
 - plug a composite video source (eg output from a camcorder) into the top left VIDEO_IN jack -> the middle led should light up when a video source input is detected
 - plug a composite video display (eg an old tv or easycap capture card) into the top right VIDEO_OUT jack 
 - now  with mix knob rotated fully anti-clockwise your source video should be passing through to the display
@@ -195,6 +195,8 @@ Ask any questions or start discussions related to this project on the [scanlines
 
 You can contact me directly at tim (at) cyberboy666 (dot) com 
 Please get in touch if you are interested in hosting a workshop !
+
+![image](https://user-images.githubusercontent.com/12017938/218357427-d6657b54-4d49-4b3b-9a02-a9b3a7d26ffb.png)
 
 Thanks to Gael Jaton for sharing your designs and knowledge. to Bastien Lavaud for circuit advice, always. To Guergana Tzatchkova for booklet design inspiration. To Ben Caldwell for project advice. To everyone who has or will contribute ♥♥♥
 
