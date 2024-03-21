@@ -6,14 +6,14 @@ A-564,10,C20 ,0.1u_poly,tayda
 A-321,10,C22 ,1uf_poly,tayda
 A-4008,130,C4 C10 C11 C12 C13 C14 C15 C16 C17 C18 C23 C24 C25 ,0.1u,tayda
 A-484,20,D1 D2 ,1n5819,tayda
-A-1095,30,D4 D6 D8 ,bat46,tayda
 A-3005,10,D5 ,LED,tayda
+A-1095,20,D6 D8 ,bat46,tayda
 A-155,10,D7 ,1n4007,tayda
 A-4118,10,J2 ,barrel_jack,tayda
 A-2956,10,J3 ,europower,tayda
 A-2563,30,J4 J5 J8 ,mono_jack_3.5mm,tayda
 A-5503,20,L1 L2 ,100uH,tayda
-A-2193,40,R1 R7 R9 R16 ,75,tayda
+A-2193,30,R1 R9 R16 ,75,tayda
 A-2180,10,R10 ,470k,tayda
 A-2246,10,R11 ,220,tayda
 A-2203,20,R14 R19 ,10k,tayda

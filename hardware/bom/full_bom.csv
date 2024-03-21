@@ -7,8 +7,8 @@ A-321,1,C22 ,1uf_poly,tayda
 A-4008,13,C4 C10 C11 C12 C13 C14 C15 C16 C17 C18 C23 C24 C25 ,0.1u,tayda
 A-484,2,D1 D2 ,1n5819,tayda
 610-1N4614TRPB,1,D3 ,zener_1.8v,mouser
-A-1095,3,D4 D6 D8 ,bat46,tayda
 A-3005,1,D5 ,LED,tayda
+A-1095,2,D6 D8 ,bat46,tayda
 A-155,1,D7 ,1n4007,tayda
 490-RCJ-024,4,J1 J6 J9 J10 ,rca,mouser
 -,1,J11 ,Conn_01x02,-
@@ -17,7 +17,7 @@ A-2956,1,J3 ,europower,tayda
 A-2563,3,J4 J5 J8 ,mono_jack_3.5mm,tayda
 -,1,J7 ,diy_power_header,-
 A-5503,2,L1 L2 ,100uH,tayda
-A-2193,4,R1 R7 R9 R16 ,75,tayda
+A-2193,3,R1 R9 R16 ,75,tayda
 A-2180,1,R10 ,470k,tayda
 A-2246,1,R11 ,220,tayda
 A-2203,2,R14 R19 ,10k,tayda
