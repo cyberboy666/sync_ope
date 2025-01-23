@@ -18,6 +18,8 @@ _sync_ope_ is a companion circuit for analog glitch & circuit bent video instrum
 - __cv jack (0-1v)__ for sequenced control over dry/wet external effect
 - external video send & return over rca or 3.5mm jacks
 
+ __NOTE__ a 12v_dc power supply with 1.5A or greater is required to start the circuit
+
 ## demo video
 
 [![image](https://user-images.githubusercontent.com/12017938/161653960-a3acee9f-8d2a-4e02-aba6-4f62a56f0d2c.png)](https://videos.scanlines.xyz/w/eyN4xfUZrG2YHyuf6rk1wZ)
